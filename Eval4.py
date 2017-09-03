@@ -1,10 +1,23 @@
+import pickle
 import math
 import numpy as np
 from nltk.tokenize import RegexpTokenizer
 
+
+class Eval4(object):
+    def __init__(self, data, helperwords):
+        self.data = data
+        self.helperwords = helperwords
+        self.labeled_data = None
+
+    def label(self):
+        self.labeled_data = LabelRubrics.label(self.data, self.helperwords)
+
+
 class LabelRubrics(object):
 
     tokenizer = RegexpTokenizer(r'\w+')
+    np.seterr(divide='ignore', invalid='ignore')
 
     @staticmethod
     def label(rubrics, helper_words):
@@ -32,7 +45,7 @@ class LabelRubrics(object):
                 'sd_sug'] = mean_helpwords, sd_helpwords
         judge = np.percentile(mean_revlen, 50)
         for key, value in labels.iteritems():
-            if value['mean_revLength'] < judge:
+            if value['mean_revlength'] < judge:
                 labels[key]['class'] = 0
             else:
                 labels[key]['class'] = 1
@@ -74,9 +87,12 @@ class LabelRubrics(object):
             stdevs.append(np.std(artifact_temp))
             num_comments.append(np.size(artifact_temp))
             del artifact_temp[:]
-        total_mean = LabelRubrics.final_mean(means, num_comments)
-        total_sd = LabelRubrics.final_sd(means, stdevs, num_comments, total_mean)
+        total_mean = FinalMean.final_mean(means, num_comments)
+        total_sd = FinalStdev.final_sd(means, stdevs, num_comments, total_mean)
         return total_mean, total_sd
+
+
+class FinalMean(object):
 
     @staticmethod
     def final_mean(means, num_comments):
@@ -86,6 +102,9 @@ class LabelRubrics(object):
         total = round(run * 1.0 / sum(num_comments), 3)
         return total
 
+
+class FinalStdev(object):
+
     @staticmethod
     def final_sd(means, sds, num_comments, total_mean):
         run = 0
@@ -93,4 +112,28 @@ class LabelRubrics(object):
             run += (((num_comments[i] - 1) * sds[i] ** 2) + (num_comments[i] * (means[i] - total_mean) ** 2))
         final_stdev = round(math.sqrt((run * 1.0) / (sum(num_comments) - 1)), 3)
         return final_stdev
+
+
+def main():
+    critviz_data = open("data/rubrics_cr_eval4.pkl")
+    expertiza_data = open("data/rubrics_ez_eval4.pkl")
+    helper_words = {word.strip("\n") for word in open("data/helperwords.txt", "r")}
+    rubrics1 = pickle.load(critviz_data)
+    rubrics2 = pickle.load(expertiza_data)
+    rubrics1.update(rubrics2)
+    evaluator = Eval4(data=rubrics1, helperwords=helper_words)
+    print("Total number of rubric criteria before cleaning : %d" % len(evaluator.data))
+    evaluator.label()
+    print("Total number of rubric criteria after cleaning : %d" % len(evaluator.labeled_data))
+
+
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
+
 
