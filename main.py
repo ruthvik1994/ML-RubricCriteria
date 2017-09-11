@@ -1,5 +1,6 @@
 import pickle
 from Eval4 import Eval4
+from Doc2Vec import MyDoc2Vec
 
 
 def main():
@@ -9,14 +10,14 @@ def main():
     rubrics2 = pickle.load(expertiza_data)
     rubrics1.update(rubrics2)
     evaluator = Eval4(data=rubrics1)
-    print("Total number of rubric criteria before cleaning : %d" % len(evaluator.data))
     evaluator.calculate_metrics()
-    print("Total number of rubric criteria after cleaning : %d" % len(evaluator.metrics))
     evaluator.find_labels()
+    doc2vec = MyDoc2Vec(rubrics=evaluator.data)
+    doc2vec.build_vectors()
     '''
     for key in evaluator.labeled_data:
-        print[key, evaluator.data[key]['desc'], evaluator.metrics[key]['mean_revlength'], evaluator.labeled_data[key]]
-        print
+        print(key, evaluator.data[key]['desc'], evaluator.metrics[key]['mean_revlength'], evaluator.labeled_data[key])
+        print(doc2vec.vectors[key])
     '''
 
 if __name__ == '__main__':
