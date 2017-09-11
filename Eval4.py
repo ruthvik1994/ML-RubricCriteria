@@ -10,33 +10,39 @@ class Eval4(object):
         self.metrics = None
         self.labeled_data = None
 
-    def find_metrics(self):
-        self.metrics = Eval4.calculate_metrics(self.data)
+    def find_labels(self, method=None):
+        self.labeled_data = dict()
+        revlen_means = list()
+        for key, value in self.metrics.iteritems():
+            revlen_means.append(value['mean_revlength'])
+        if method == "binary":
+            class_judge = np.percentile(revlen_means, 50)
+            for key, value in self.metrics.iteritems():
+                if value['mean_revlength'] > class_judge:
+                    self.labeled_data[key] = 1
+                else:
+                    self.labeled_data[key] = 0
+        else:
+            mini_len = min(revlen_means)
+            max_len = max(revlen_means)
+            for key, value in self.metrics.iteritems():
+                self.labeled_data[key] = (value['mean_revlength'] - mini_len) / (max_len - mini_len)
 
-    @staticmethod
-    def calculate_metrics(rubrics):
-        metrics = dict()
-        mean_revlen, sd_revlen = list(), list()
-        mean_help, sd_help = list(), list()
-        for rubric_id in rubrics:
-            mean_revlength, sd_revlength = Score.score(rubrics[rubric_id]['artifacts'], Score.revlength)
-            mean_helpwords, sd_helpwords = Score.score(rubrics[rubric_id]['artifacts'], Score.helpwords)
+    def calculate_metrics(self):
+        self.metrics = dict()
+        for rubric_id in self.data:
+            mean_revlength, sd_revlength = Score.score(self.data[rubric_id]['artifacts'], Score.revlength)
+            mean_helpwords, sd_helpwords = Score.score(self.data[rubric_id]['artifacts'], Score.helpwords)
             if math.isnan(mean_revlength) or math.isnan(mean_helpwords):
                 continue
-            mean_help.append(mean_helpwords)
-            mean_revlen.append(mean_revlength)
-            sd_help.append(sd_helpwords)
-            sd_revlen.append(sd_revlength)
-            metrics[rubric_id] = {}
-            metrics[rubric_id]['mean_revlength'], metrics[rubric_id][
+            self.metrics[rubric_id] = {}
+            self.metrics[rubric_id]['mean_revlength'], self.metrics[rubric_id][
                 'sd_revlength'] = mean_revlength, sd_revlength
-            metrics[rubric_id]['mean_sug'], metrics[rubric_id][
+            self.metrics[rubric_id]['mean_sug'], self.metrics[rubric_id][
                 'sd_sug'] = mean_helpwords, sd_helpwords
-        return metrics
 
 
 class Score(object):
-
     tokenizer = RegexpTokenizer(r'\w+')
     helperwords = {word.strip("\n") for word in open("data/helperwords.txt", "r")}
 
@@ -67,12 +73,11 @@ class Score(object):
         count = 0
         for token in tokens:
             if token in Score.helperwords:
-                    count += 1
+                count += 1
         return count
 
 
 class FinalMean(object):
-
     @staticmethod
     def calculate(means, num_comments):
         run = 0
@@ -83,7 +88,6 @@ class FinalMean(object):
 
 
 class FinalStdev(object):
-
     @staticmethod
     def calculate(means, sds, num_comments, total_mean):
         run = 0
@@ -101,17 +105,12 @@ def main():
     rubrics1.update(rubrics2)
     evaluator = Eval4(data=rubrics1)
     print("Total number of rubric criteria before cleaning : %d" % len(evaluator.data))
-    evaluator.find_metrics()
+    evaluator.calculate_metrics()
     print("Total number of rubric criteria after cleaning : %d" % len(evaluator.metrics))
-
+    evaluator.find_labels()
+    for key in evaluator.labeled_data:
+        print[key, evaluator.data[key]['desc'], evaluator.metrics[key]['mean_revlength'], evaluator.labeled_data[key]]
+        print
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-
