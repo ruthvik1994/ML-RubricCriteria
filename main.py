@@ -14,11 +14,11 @@ def main():
     evaluator.find_labels()
     doc2vec = MyDoc2Vec(rubrics=evaluator.data)
     doc2vec.build_vectors()
-    '''
+    
     for key in evaluator.labeled_data:
         print(key, evaluator.data[key]['desc'], evaluator.metrics[key]['mean_revlength'], evaluator.labeled_data[key])
         print(doc2vec.vectors[key])
-    '''
+    
 
 if __name__ == '__main__':
     main()
