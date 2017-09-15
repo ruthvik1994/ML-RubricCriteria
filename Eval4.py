@@ -27,7 +27,7 @@ class Eval4(object):
             for key, value in self.metrics.iteritems():
                 self.labeled_data[key] = (value - mini_len) / (max_len - mini_len)
 
-    def calculate_metrics(self, metric="reviewlen", statistic="mean"):
+    def calculate_metrics(self, metric=None, statistic=None):
         self.metrics = dict()
         for rubric_id in self.data:
             metric_score = Score.score(self.data[rubric_id]['artifacts'], metric, statistic)

@@ -7,8 +7,17 @@ import math
 class ScoreEval1(object):
 
     @staticmethod
-    def score(artifacts, metric_function):
-        pass
+    def score(artifacts, metric=None, statistic="stdev"):
+        means = list()
+        stdevs, num_responses = list(), list()
+        for artifact_id in artifacts:
+            means.append(np.mean(artifacts[artifact_id]))
+            stdevs.append(np.std(artifacts[artifact_id]))
+            num_responses.append(len(artifacts[artifact_id]))
+        if statistic == "mean":
+            return FinalMean.calculate(means, num_responses)
+        elif statistic == "stdev":
+            return FinalStdev.calculate(means, stdevs, num_responses, FinalMean.calculate(means, num_responses))
 
 
 class ScoreEval4(object):
@@ -17,9 +26,9 @@ class ScoreEval4(object):
     helperwords = {word.strip("\n") for word in open("data/helperwords.txt", "r")}
 
     @staticmethod
-    def score(artifacts, metric, statistic):
+    def score(artifacts, metric="reviewlen", statistic="mean"):
         artifact_temp, means = list(), list()
-        stdevs, num_comments = list(), list()
+        stdevs, num_responses = list(), list()
         if metric == "reviewlen":
             metric_fun = ScoreEval4.revlength
         elif metric == "suggestive":
@@ -32,12 +41,12 @@ class ScoreEval4(object):
                 artifact_temp.append(metric_fun(tokens))
             means.append(np.mean(artifact_temp))
             stdevs.append(np.std(artifact_temp))
-            num_comments.append(np.size(artifact_temp))
+            num_responses.append(np.size(artifact_temp))
             del artifact_temp[:]
         if statistic == "mean":
-            return FinalMean.calculate(means, num_comments)
+            return FinalMean.calculate(means, num_responses)
         elif statistic == "stdev":
-            return FinalStdev.calculate(means, stdevs, num_comments, FinalMean.calculate(means, num_comments))
+            return FinalStdev.calculate(means, stdevs, num_responses, FinalMean.calculate(means, num_responses))
 
     @staticmethod
     def revlength(tokens):
