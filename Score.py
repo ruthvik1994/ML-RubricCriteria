@@ -4,38 +4,50 @@ import numpy as np
 import math
 
 
-class Score(object):
+class ScoreEval1(object):
+
+    @staticmethod
+    def score(artifacts, metric_function):
+        pass
+
+
+class ScoreEval4(object):
     tokenizer = RegexpTokenizer(r'\w+')
     stemmer = PorterStemmer()
     helperwords = {word.strip("\n") for word in open("data/helperwords.txt", "r")}
 
     @staticmethod
-    def score(artifacts, metric_function):
+    def score(artifacts, metric, statistic):
         artifact_temp, means = list(), list()
         stdevs, num_comments = list(), list()
+        if metric == "reviewlen":
+            metric_fun = ScoreEval4.revlength
+        elif metric == "suggestive":
+            metric_fun = ScoreEval4.suggestive
         for id in artifacts:
             for comment in artifacts[id]:
-                tokens = Score.tokenizer.tokenize(comment)
+                tokens = ScoreEval4.tokenizer.tokenize(comment)
                 if len(tokens) <= 5:
                     continue
-                artifact_temp.append(metric_function(tokens))
+                artifact_temp.append(metric_fun(tokens))
             means.append(np.mean(artifact_temp))
             stdevs.append(np.std(artifact_temp))
             num_comments.append(np.size(artifact_temp))
             del artifact_temp[:]
-        total_mean = FinalMean.calculate(means, num_comments)
-        total_sd = FinalStdev.calculate(means, stdevs, num_comments, total_mean)
-        return total_mean, total_sd
+        if statistic == "mean":
+            return FinalMean.calculate(means, num_comments)
+        elif statistic == "stdev":
+            return FinalStdev.calculate(means, stdevs, num_comments, FinalMean.calculate(means, num_comments))
 
     @staticmethod
     def revlength(tokens):
         return len(tokens)
 
     @staticmethod
-    def helpwords(tokens):
+    def suggestive(tokens):
         count = 0
         for token in tokens:
-            if token in Score.helperwords:
+            if token in ScoreEval4.helperwords:
                 count += 1
         return count
 
