@@ -31,7 +31,9 @@ class Eval4(object):
         self.metrics = dict()
         for rubric_id in self.data:
             metric_score = Score.score(self.data[rubric_id]['artifacts'], metric, statistic)
+            print(metric_score)
             if math.isnan(metric_score):
+                del self.data[rubric_id]
                 continue
             self.metrics[rubric_id] = metric_score
 

@@ -63,19 +63,19 @@ class ScoreEval4(object):
 
 class FinalMean(object):
     @staticmethod
-    def calculate(means, num_comments):
+    def calculate(means, num_responses):
         run = 0
-        for i in range(len(num_comments)):
-            run += (means[i] * num_comments[i])
-        total = round(run * 1.0 / sum(num_comments), 3)
+        for i in range(len(num_responses)):
+            run += (means[i] * num_responses[i])
+        total = round(run * 1.0 / sum(num_responses), 3)
         return total
 
 
 class FinalStdev(object):
     @staticmethod
-    def calculate(means, sds, num_comments, total_mean):
+    def calculate(means, sds, num_responses, total_mean):
         run = 0
-        for i in range(len(num_comments)):
-            run += (((num_comments[i] - 1) * sds[i] ** 2) + (num_comments[i] * (means[i] - total_mean) ** 2))
-        final_stdev = round(math.sqrt((run * 1.0) / (sum(num_comments) - 1)), 3)
+        for i in range(len(num_responses)):
+            run += (((num_responses[i] - 1) * sds[i] ** 2) + (num_responses[i] * (means[i] - total_mean) ** 2))
+        final_stdev = round(math.sqrt((run * 1.0) / (sum(num_responses) - 1)), 3)
         return final_stdev
