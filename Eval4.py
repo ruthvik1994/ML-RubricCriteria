@@ -13,7 +13,8 @@ class Eval4(object):
         self.labeled_data = dict()
         scores = list()
         for key, value in self.metrics.iteritems():
-            scores.append(value)
+            if value != -1:
+                scores.append(value)
         if method == "binary":
             class_judge = np.percentile(scores, 50)
             for key, value in self.metrics.iteritems():
@@ -33,7 +34,7 @@ class Eval4(object):
             metric_score = Score.score(self.data[rubric_id]['artifacts'], metric, statistic)
             print(metric_score)
             if math.isnan(metric_score):
-                del self.data[rubric_id]
+                self.metrics[rubric_id] = -1
                 continue
             self.metrics[rubric_id] = metric_score
 

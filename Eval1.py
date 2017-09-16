@@ -12,7 +12,8 @@ class Eval1(object):
     def find_labels(self, method="binary"):
         scores = list()
         for key, value in self.metrics.iteritems():
-            scores.append(value)
+            if value != -1:
+                scores.append(value)
         if method == "binary":
             class_judge = np.percentile(scores, 50)
             for key, value in self.metrics.iteritems():
