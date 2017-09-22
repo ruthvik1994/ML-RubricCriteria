@@ -1,6 +1,6 @@
 from gensim.models.doc2vec import LabeledSentence, Doc2Vec
-from Score import Score
 import random
+from Score import Score
 
 
 class MyDoc2Vec(object):
