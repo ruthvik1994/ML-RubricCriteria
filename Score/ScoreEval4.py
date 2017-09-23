@@ -1,7 +1,7 @@
 import numpy as np
 from Score import Score
-from Score.FinalMean import FinalMean
-from Score.FinalStdev import FinalStdev
+from .FinalMean import FinalMean
+from .FinalStdev import FinalStdev
 
 
 class ScoreEval4(Score):

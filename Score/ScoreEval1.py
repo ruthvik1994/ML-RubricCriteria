@@ -1,5 +1,5 @@
-from Score.FinalStdev import FinalStdev
-from Score.FinalMean import FinalMean
+from .FinalMean import FinalMean
+from .FinalStdev import FinalStdev
 import numpy as np
 
 class ScoreEval1(object):

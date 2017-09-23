@@ -1,6 +1,6 @@
 import numpy as np
 import math
-from Score import ScoreEval4 as Score
+from Score.ScoreEval4 import ScoreEval4 as Score
 
 
 class Eval4(object):

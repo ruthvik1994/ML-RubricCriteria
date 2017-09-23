@@ -1,6 +1,6 @@
 import numpy as np
 import math
-from Score import ScoreEval1 as Score
+from Score.ScoreEval1 import ScoreEval1 as Score
 
 
 class Eval1(object):
@@ -29,7 +29,7 @@ class Eval1(object):
 
     def calculate_metrics(self, metric=None, statistic=None):
         for rubric_id in self.data:
-            metric_score = Score.score(self.data[rubric_id]['artifacts'])
+            metric_score = Score.score(self.data[rubric_id]['artifacts'], statistic=statistic)
             if math.isnan(metric_score):
                 self.metrics[rubric_id] = -1
                 continue
