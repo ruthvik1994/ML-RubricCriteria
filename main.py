@@ -23,7 +23,7 @@ def main():
     for key in evaluator.labeled_data:
         print[key, evaluator.data[key]['desc'], evaluator.metrics[key], evaluator.labeled_data[key]]
         print
-
+    """
 
     # Quantitative rubrics testing
     critviz_data = open("data/rubrics_cv_eval1.pkl")
@@ -33,7 +33,8 @@ def main():
     rubrics1.update(rubrics2)
     evaluator = Eval1(data=rubrics1)
     
-    evaluator.calculate_metrics()
+    evaluator.calculate_metrics(statistic="fleiss")
+    """
     evaluator.find_labels()
     for key in evaluator.labeled_data:
         print(key, evaluator.data[key]['desc'], evaluator.metrics[key], evaluator.labeled_data[key])
@@ -45,7 +46,7 @@ def main():
     modelname = "d2v_qual"
     doc2vec.model.save(modelname)
     
-    """
+
     simfile = open("similarities.csv", "w")
     fieldnames = ['CriterionID', 'Description', 'MeanSimilarity']
     writer = csv.DictWriter(simfile, fieldnames=fieldnames)
@@ -56,6 +57,7 @@ def main():
     for each in similarities:
         writer.writerow({'CriterionID': each, 'Description': rubrics1[each]['desc'],
                          'MeanSimilarity': np.mean(similarities[each])})
+    """
 
 if __name__ == '__main__':
     main()

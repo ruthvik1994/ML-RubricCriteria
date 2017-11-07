@@ -30,10 +30,11 @@ class Eval1(object):
     def calculate_metrics(self, metric=None, statistic=None):
         for rubric_id in self.data:
             metric_score = Score.score(self.data[rubric_id]['artifacts'], statistic=statistic)
-            if math.isnan(metric_score):
+            if metric_score is None or math.isnan(metric_score):
                 self.metrics[rubric_id] = -1
                 continue
             self.metrics[rubric_id] = metric_score
+            print([rubric_id, metric_score])
 
 
 

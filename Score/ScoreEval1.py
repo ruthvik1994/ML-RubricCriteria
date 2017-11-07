@@ -1,6 +1,8 @@
 from .FinalMean import FinalMean
 from .FinalStdev import FinalStdev
+from .FleissKappa import FleissKappa
 import numpy as np
+
 
 class ScoreEval1(object):
 
@@ -8,6 +10,10 @@ class ScoreEval1(object):
     def score(artifacts, metric=None, statistic="stdev"):
         means = list()
         stdevs, num_responses = list(), list()
+        if statistic == "fleiss":
+            kappa = FleissKappa(artifacts)
+            return FleissKappa.compute(kappa.mat)
+            # return kappa.compute(artifacts)
         for artifact_id in artifacts:
             means.append(np.mean(artifacts[artifact_id]))
             stdevs.append(np.std(artifacts[artifact_id]))
