@@ -1,0 +1,1743 @@
+-------------------------------------
+(['What are three things that this individual did well?'], 'Root')
+-------------------------------------
+(['What are three suggestions you recommend to this student?'], 'Root')
+Root : Randomly pick some sentences or paragraphs and search for it with a search engine.
+1 List any sources that may infringe copyrights. : 0.129545454545
+Root : Rate how logical and clear the organization is.
+1 Point out any places where you think that the organization of this article needs to be improved. : 0.714285714286
+Root : Check the designs proposed by the authors.
+1 Comment if you find that 1) the authors plan to add method(s) to a wrong class, 2) the new design may potentially make the code "smelly", 3) the new designs look complicated and there might be existing gems that could simplify them, 4) the new design may potentially increase the response time of the system or 5) more effort should be expended on the design. : 0.604166666667
+Root : Required Comment on the use of sources materials.
+1 E.g. : 0.0
+2 Are there other perspectives to include? : 0.145555555556
+3 Is there any evidence of plagiarism? : 0.160642135642
+4 Is it clear what information came from sources and which is the author's own ideas? : 0.366666666667
+Root : Respond to the overall presentation of the work.
+1 What is this about? : 0.0
+-------------------------------------
+(['Organization of Literature Review'], 'Root')
+Root : Respond to the formal and aesthetic aspects: composition, color, lines, shape.
+1 Is it effective in relation to the ideas you see expressed? : 0.19
+2 How does beauty play a role in this work (or not)? : 0.0966666666667
+Root : Respond to the technical aspects of the photos.
+1 Focus, color balance, exposure. : 0.0801282051282
+-------------------------------------
+(['Introduction'], 'Root')
+-------------------------------------
+(['Title & Abstract\r\nTitle & Abstract'], 'Root')
+Root : What are this entry's strengths?
+1 How does it meet the challenge of the assignment? : 0.19696969697
+Root : Where does this entry fall short?
+1 What constructive feedback can you offer on how the author can improve the final draft? : 0.222222222222
+Root : Imagine that you and this student are assigned to collaborate for the semester.
+1 Using their three ideas as a starting point, blend, extend, or shift them into one project that you and they might actually work on. : 0.25303030303
+Root : Please point out if any of those does not work or is missing from the reviewed system.
+1 Are these functionalities fully and correctly implemented? : 0.247383568812
+Root : Given the intent of the assignment (to stretch our thinking), did the student make a sincere effort, or did they write vaguely about their own motivations and thoughts (without actually exploring ideas)?
+1 Do they actually and clearly propose three things? : 0.363915945166
+2 Reiterate here, in your words, what those three ideas are. : 0.327727272727
+-------------------------------------
+(['The blog is clear, well formulated, directly relates to the topic and contains all necessary information'], 'Root')
+-------------------------------------
+(['The blog posts are organized in a way that you can follow the progression of the project.'], 'Root')
+-------------------------------------
+(['The blog posts allow you to understand what this person is working on.'], 'Root')
+-------------------------------------
+(['The writing is grammatically sounds and concisely written (e.g., no empty words or phrases, no run on sentences, etc.)'], 'Root')
+-------------------------------------
+(['Insert feedback here.'], 'Root')
+-------------------------------------
+(['What information was clearly expressed?'], 'Root')
+-------------------------------------
+(['INTEREST of content'], 'Root')
+Root : Can a post be created without specifying a category(no)?
+1 Can a post be created with costumed tags? : 0.645
+Root :  Can you up-vote?
+1 Can you vote your own posts (no)? : 0.0
+2 Can you vote up the same post or comment more than once? : 0.0
+3 Does the number of votes show up next to the post or comment when the system displays it? : 0.0
+Root : Are tests submitted?
+1 Do the tests cover all important branches of the code? : 0.425925925926
+Root : Read the app description, and look at the wireframes.
+1 What specific attribute or feature of this app do you like? : 0.124747474747
+-------------------------------------
+(['Based on the wireframes, make one concrete, specific suggestion that you believe will improve this app.'], 'Root')
+-------------------------------------
+(['How well are the ethical issues and applicable ethical theories discussed and applied in this submission?'], 'Root')
+-------------------------------------
+(['How well are stakeholders identified, along with potential impacts and risks to them?'], 'Root')
+-------------------------------------
+(['Is the article organized in a way that is logical and clear?'], 'Root')
+-------------------------------------
+(['OWASP A9, Test Case 1'], 'Root')
+Root : Technical.
+1 Your experience of getting the patch to work. : 0.1
+2 Did it work? : 0.0
+3 Try to take the patch apart and figure out how it works. : 0.1
+4 How does this patch work? : 0.1
+5 Did you learn anything from how this patch was made? : 0.1
+6 How would you have coded this differently? : 0.0
+Root : Can you see the list of posts without login?
+1 Can a normal user be created? : 0.150673400673
+2 Can you post with a normal user account? : 0.157407407407
+3 Can you search? : 0.25
+4 Can you reply to a post? : 0.41452991453
+5 Can you delete replies (no)? : 0.15
+6 Can you delete others' posts (no)? : 0.425641025641
+7 Can you edit/delete your own post/comment? : 0.25
+Root : Can an admin user be created?
+1 Can an admin user delete other users? : 0.555555555556
+2 Delete other admin users? : 0.555555555556
+3 Can super admin be deleted? : 0.666666666667
+4 Do posts do something sane upon delete of the user (it should become Anonymous)? : 0.555555555556
+5 What about cheers? : 0.116666666667
+6 Do they remain consistent? : 0.416666666667
+-------------------------------------
+(['Part 4 - Bug Fix 5'], 'Root')
+Root : Does the code for the application exhibit good o-o style?
+1 Are features distributed correctly between classes? : 0.166031746032
+2 Is code duplication avoided? : 0.123269230769
+3 Are the names suggestive of what the functionality is? : 0.161904761905
+-------------------------------------
+(['OWASP A1, Test Case 1'], 'Root')
+Root : Looking just at the sketch and any legend provided, what do you think this data represents?
+1 Can you draw any conclusions from it? : 0.15621657754
+Root : Finally, based on the groups own description on what they are doing and their goals, how successful are they?
+1 What areas are still unclear / need improvement? : 0.436507936508
+2 How are the aesthetics of the visualization? : 0.440367965368
+-------------------------------------
+(['OWASP A2, Test Case 1'], 'Root')
+-------------------------------------
+(['OWASP A1, Test Case 2'], 'Root')
+Root : Describe what you see happening in the processing sketch.
+1 What are the colors? : 0.17303030303
+2 Shapes? : 0.0962301587302
+3 Movements? : 0.0799747474747
+Root : What is the relationship between these elements?
+1 Are there trends? : 0.102513227513
+2 Rhythm? : 0.113095238095
+3 Patterns? : 0.113095238095
+4 Repetition? : 0.100925925926
+5 Outliers? : 0.0923076923077
+6 A focal point? : 0.159932659933
+-------------------------------------
+(['Provide a brief summary of the technology that was presented in the video.'], 'Root')
+-------------------------------------
+(['What did you learn from watching the tech talk?'], 'Root')
+-------------------------------------
+(['Describe the second most important issue regarding the research design.'], 'Root')
+-------------------------------------
+(['Describe the third most important issue regarding the research design.'], 'Root')
+-------------------------------------
+(['What should the group consider for the DC Showcase?'], 'Root')
+Root : Admins should have higher authorities over ordinary library members.
+1 Check the functionalities for admin below and see if they all work:
+1) Can an admin create other admins? : 0.167055167055
+2 2) Can an admin view the list of other admins? : 0.167055167055
+3 3) Can an admin view the details(except password) of another admin? : 0.102777777778
+4 4) Can an admin delete other admins other than himself and the preconfigured admin? : 0.333333333333
+-------------------------------------
+(['What is the social issue they are addressing - how will the project have impact in the community?'], 'Root')
+Root : How feasible is the approach being taken?
+1 What are the pitfalls you can see? : 0.583333333333
+Root : References: do the major concepts have citations to more detailed treatments?
+1 Are there any unavailable links? : 0.169386169386
+-------------------------------------
+(['Did the authors revise their work in accordance with your suggestions?'], 'Root')
+Root : Please review the code on Git.
+1 How well does the code follow "good Ruby and Rails coding practices"? : 0.44696969697
+Root : Is the user interface intuitive and easy to use?
+1 If not, is it well described in the README file? : 0.466666666667
+Root : Originality: If you found any plagiarism in round 1, has it been removed?
+1 Then, randomly pick some sentences or paragraphs and search for them with a search engine. : 0.261904761905
+2 Describe any text that may infringe copyrights. : 0.128968253968
+Root : Clarity: Are the sentences clear, and non-duplicative?
+1 Does the language used in this artifact simple and basic to be understood? : 0.492063492063
+-------------------------------------
+(['What did the student do well in their tech talk?'], 'Root')
+Root : Definitions:  are the definitions of unfamiliar terms clear and concise?
+1 Are the definitions adequately supported by explanations or examples? : 0.777777777778
+-------------------------------------
+(['Required Comment'], 'Root')
+-------------------------------------
+(['Required Comment'], 'Root')
+Root : Provide written comments on each report in accord with the with the ideas laid out in the documents _Guidelines for doing Computing Projects_ and _Evaluation of Computing Projects_.
+1 Do not provide scores, but rather comments that will help the author improve future reports. : 0.38420995671
+Root : Do you agree with the arguments and choice of economic model for this app?
+1 Why? : 0.0
+-------------------------------------
+(['Coverage of description: How well did the description cover the topic?'], 'Root')
+Root : Clarity of description: How clear is the lesson?
+1 Are graphics used if appropriate? : 0.175480769231
+-------------------------------------
+(['Any additional comments or thoughts?'], 'Root')
+Root : What part of this work (just the part shown here) needs the most improvement?
+1 Why? : 0.0
+2 Be specific, cite examples, you must write something here. : 0.317063492063
+3 Do not leave this blank. : 0.173611111111
+4 There must be something that can be improved. : 0.291666666667
+Root : What part of this work (just the part shown here) is the strongest?
+1 Why? : 0.0
+-------------------------------------
+(['Write another compliment for the article.'], 'Root')
+-------------------------------------
+(['Write another suggestion for the article.'], 'Root')
+-------------------------------------
+(['Correctness of exercises: How correct and how well defined are the answers to the exercises?'], 'Root')
+-------------------------------------
+(['Links: Are sufficient links provided so that the student can become familiar with background material, if necessary?'], 'Root')
+Root : Write a sentence or two on the video that you have been allocated.
+1 For example, can you understand what is going on in the instrument? : 0.318716931217
+2 Is the sound quality clear? : 0.330952380952
+3 Is the interaction design inventive? : 0.31455026455
+4 Be constructive and polite. : 0.200072150072
+-------------------------------------
+(['Organization of description: How well is the lesson organized?'], 'Root')
+-------------------------------------
+(['Respond to each work and describe what you see in the images, talk about what you understand about the people, what the images look like to you and how the technique affects how you are seeing the pictures.'], 'Root')
+-------------------------------------
+(['Any additional comments or thoughts?'], 'Root')
+Root : What part of this work (just the part shown here) is the strongest?
+1 Why? : 0.0
+Root : What part of this work (just the part shown here) needs the most improvement?
+1 Why? : 0.0
+2 Be specific, cite examples, you must write something here. : 0.317063492063
+3 Do not leave this blank. : 0.173611111111
+4 There must be something that can be improved. : 0.291666666667
+-------------------------------------
+(['The software and hardware were referenced according to the instructions.'], 'Root')
+-------------------------------------
+(['A gap in the literature and/or previous project work was identified.'], 'Root')
+-------------------------------------
+(['What did you learn about the project by reading the methods?'], 'Root')
+-------------------------------------
+([' What information would improve the methods?'], 'Root')
+-------------------------------------
+(['The completed methods written as concisely as possible.'], 'Root')
+-------------------------------------
+(['The proposed methods were written as concisely as possible.'], 'Root')
+-------------------------------------
+(['Rewrite a sentence or group of sentences to reduce the number of words and/or eliminate subjective/qualitative assessments.'], 'Root')
+Root : Commits: Did the team keep on submitting their changes throughout the project?
+1 In particular, did this team still commit changes in round 2? : 0.528571428571
+Root : Overall, how well was the code written.
+1 If you found problems in the code in the first round (bad names, long or complicated functions, lack of comments, bad code style, DRY problems..), have the authors improved the code accordingly? : 0.511111111111
+-------------------------------------
+(['The example helps the reader understand the topic'], 'Root')
+-------------------------------------
+(['Required Comment on the content'], 'Root')
+-------------------------------------
+(['The anticipatory set introduces the topic'], 'Root')
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+-------------------------------------
+(['Is the solution correct and unambiguous?'], 'Root')
+-------------------------------------
+(['Required Comment on the anticipatory set'], 'Root')
+-------------------------------------
+(['The main concept or idea of the lesson is explained'], 'Root')
+-------------------------------------
+(['Has this team provided adequate comments in their code?'], 'Root')
+Root : Does this system handle the 1-to-n and n-to-n relationship properly?
+1 For example-
+1) Student-course relationship should be n-to-n, so there should be a mapping table. : 0.420833333333
+2 The grades should be recorded in this mapping table, too. : 0.231060606061
+3 2) Instructor-course relationship should also be n-to-n.
+3) Material-course relationship should be 1-to-n, therefore they can be modeled by adding a froeign key, mapping table is not necessary. : 0.458333333333
+4 Give comments if you find there are some problem with the design of the relationships. : 0.420833333333
+-------------------------------------
+(['Part 4 - Bug Fix 4'], 'Root')
+-------------------------------------
+(['On a scale of 1 (worst) to 5 (best), how easy is it to understand the code?'], 'Root')
+-------------------------------------
+(['What information was vague/difficult to understand?'], 'Root')
+-------------------------------------
+(['How do you suggest clarifying the information in this blog (e.g., identify missing information, make suggestions for improving writing).'], 'Root')
+Root : Before making judgements and offering feedback, please re-iterate what the idea behind this collection is in your own words.
+1 What did this collect do and why? : 0.247043080376
+Root : Propose a way of using this media in an installation that the author may not have thought of, and that leverages the unique character of the media.
+1 What do you think this collection of media "wants". : 0.402456382002
+Root : Evaluate each of your five assigned reviews in accord with the ideas laid out in the documents _Guidelines for doing Computing Projects_ and _Evaluation of Computing Projects_.
+1 These documents can be found on the Bb course website under the tab Computing Projects : 0.392613636364
+Root : What part of this work (just the part shown here) needs the most improvement?
+1 Why? : 0.0
+2 Be specific, cite examples, you must write something here. : 0.317063492063
+3 Do not leave this blank. : 0.173611111111
+4 There must be something that can be improved. : 0.291666666667
+-------------------------------------
+(['Any additional comments or thoughts?'], 'Root')
+Root : Can you find any new sources of material that could be used to update or enhance the chapter?
+1 List them. : 0.126118326118
+Root : Is the supplement drawn from a variety of sources?
+1 It should not be a rewrite of a single source--nor should any section be a rewrite of a single source. : 0.708333333333
+Root : Is the supplement original?
+1 Please check for plagiarism. : 0.1875
+-------------------------------------
+(['Is the user interface intuitive and easy to use?'], 'Root')
+-------------------------------------
+(['Does the code follow good Ruby and Rails coding practices?'], 'Root')
+Root : What criteria did you consider in making your choices for ranking #2?
+1 For number #3? : 0.1
+2 How difficult or easy did you find it to rank? : 0.791666666667
+3 Do your rankings "mean" something? : 0.435185185185
+4 If so, what do they mean? : 0.604166666667
+5 What don't they mean? : 0.604166666667
+-------------------------------------
+(["What did you discover in reading this classmate's thoughts on peer feedback and critique that may impact your own practice?"], 'Root')
+-------------------------------------
+(['Please provide a sentence or two with critique (constructive, please) or appraisal of the progress of the WIP #1 projects that you have received.'], 'Root')
+-------------------------------------
+(['The pictures in the blog provide information to help understand what you are working on.'], 'Root')
+Root : Please point out if any of those does not work or is missing from the reviewed system.
+1 Are these functionalities fully and correctly implemented? : 0.247383568812
+-------------------------------------
+(['Required Comment on the anticipatory set'], 'Root')
+-------------------------------------
+(['The anticipatory set introduces the topic'], 'Root')
+-------------------------------------
+(['The main concept or idea of the lesson is explained'], 'Root')
+-------------------------------------
+(['The example is explained'], 'Root')
+-------------------------------------
+(['An example of the main idea/concept is presented'], 'Root')
+-------------------------------------
+(['Required Comment on the content'], 'Root')
+-------------------------------------
+(['The example helps the reader understand the topic'], 'Root')
+-------------------------------------
+(['The author includes his/her own ideas in the conclusion'], 'Root')
+-------------------------------------
+(['There is a summary or conclusion that synthesizes the information'], 'Root')
+Root : What are the effects on you of anticipating feedback on this assignment and having access to seeing feedback and rankings of peers' assignments?
+1 {Please attend to any of the following questions that are helpful or generative for you...answering them is not required} 
+What do you foresee as benefits? : 0.207982295482
+2 What do you foresee as costs? : 0.134478557505
+3 In terms of self-reflexivity, what might this tell you about your own practices and proclivities of publicly giving and receiving constructive critique? : 0.188888888889
+4 About your own placement of "meaning" on such critique? : 0.164093314093
+5 What has this exercise, and your reactions to it, highlighted in terms of pedagogical practices, transparency or secrecy, sage on stage vs. networked teaching models, authenticity, collaboration, or competition in the academy? : 0.286904761905
+-------------------------------------
+(['Required Comment on the conclusion'], 'Root')
+-------------------------------------
+(['The summary/conclusion helps the author understand the significance of the topic for educators'], 'Root')
+-------------------------------------
+(['The author includes his/her own ideas in the conclusion'], 'Root')
+-------------------------------------
+(['There is a summary or conclusion that synthesizes the information'], 'Root')
+Root : Are the active questions on top?
+1 Are questions ordered only by time(no)? : 0.472222222222
+2 Can a question change its position in the list by getting more votes(yes)? : 0.511111111111
+Root : Respond to the documentation itself.
+1 The production quality. : 0.125
+2 The setting. : 0.0714285714286
+3 The camera work, and video quality. : 0.125
+4 The editing. : 0.125
+5 Does the video tell a good story and make the installation itself clear and interesting? : 0.2
+6 How could it be improved? : 0.0
+Root : Technique.
+1 What are the strengths and weaknesses of this work in terms of the technical. : 0.1
+2 Code. : 0.1
+3 Equipment. : 0.0714285714286
+4 Technical approach. : 0.0769230769231
+5 Could the work be simplified? : 0.1
+6 Is it too simple? : 0.0
+7 Are there technical problems with this work? : 0.1
+Root : Concept.
+1 Does this installation leverage the unique character of the media collection being used? : 0.125
+2 If it does how? : 0.0
+3 Does the media not really matter? : 0.0769230769231
+4 Explain why. : 0.0
+Root : Direct suggestion for this group.
+1 Give concrete and actionable advice on how this group can make this work significantly better for the final. : 0.571428571429
+Root : Write a sentence or two on the patch that you have been allocated.
+1 For example, can you understand what is going on in the patch? : 0.46455026455
+2 Is the sound quality clear? : 0.317063492063
+3 Is the design inside the pfft~ inventive? : 0.303057889823
+4 Be constructive and polite. : 0.196225996226
+Root : Describe this installation in your own words.
+1 What is this work? : 0.1125
+2 What media collection is used? : 0.116883116883
+3 Where is it installed? : 0.0
+4 Reserve judjement, just describe it. : 0.0857142857143
+-------------------------------------
+(['Based on the criteria for the assignment, how do you think this Category Analysis could be improved?'], 'Root')
+-------------------------------------
+(['Based on the criteria for the assignment, what do you like best about this Category Analysis?'], 'Root')
+-------------------------------------
+(['Based on the criteria for the assignment, how do you think this Category Analysis could be improved?'], 'Root')
+-------------------------------------
+(['Based on the criteria for the assignment, what do you like best about this Category Analysis?'], 'Root')
+-------------------------------------
+(['CREDIBILITY of information'], 'Root')
+-------------------------------------
+(['Attack Tree 1 Diagram'], 'Root')
+-------------------------------------
+(['Abuse/Misuse Description 4'], 'Root')
+-------------------------------------
+(['Attack Tree 2 Diagram'], 'Root')
+-------------------------------------
+(['Attack Tree 1 Substantiation'], 'Root')
+-------------------------------------
+(['Abuse/Misuse Description 1'], 'Root')
+-------------------------------------
+(['Abuse/Misuse Diagram'], 'Root')
+-------------------------------------
+(['Abuse/Misuse Description 3'], 'Root')
+-------------------------------------
+(['Abuse/Misuse Description 2'], 'Root')
+-------------------------------------
+(['Is there anything the student could have improved on?'], 'Root')
+-------------------------------------
+(['Please comment on the strengths and weaknesses of this paper.'], 'Root')
+Root : Are all the required features present in this code?
+1 (See http://www.csc.ncsu.edu/faculty/efg/517/f12/assignments, then click on "Program 2 (OSS)" and then "Assignment materials") : 0.141666666667
+Root : Is the code well formatted and largely adherent to the Ruby Style Guide?
+1 https://github.com/bbatsov/ruby-style-guide : 0.0895387700535
+-------------------------------------
+(['On a scale of 1 (worst) to 5 (best), how easy is it to understand the code?'], 'Root')
+-------------------------------------
+(['Has this team provided adequate comments in their code?'], 'Root')
+Root : Restate the project idea in your own words, trying to add as little judgement as possible.
+1 Just describe the project the way you understand it. : 0.270238095238
+-------------------------------------
+(['Has this team avoided duplication of code?'], 'Root')
+-------------------------------------
+(['Are the variable, method, and class names reasonable and suggestive of the functionality?'], 'Root')
+Root : Personal Significance.
+1 It's often very helpful to the author of a creative project to hear why the project has significance to another human being. : 1.0
+2 Without judgement or suggestion of changes (yet) address the communicative power of the work just presented. : 0.166666666667
+3 What has meaning for you about this work? : 0.1
+4 What was "stimulating, surprising, evocative, challenging, memorable, touching or meaningful to you". : 0.0
+Root : Manually test the features.
+1 Do they work as intended? : 0.2
+Root : Do you feel that this code is ready to be deployed onto the production Expertiza server?
+1 If not: What improvements are needed first? : 0.392857142857
+2 Should the project be re-done from scratch using a different approach, or is this a good starting place for a future team to pick up? : 0.408387445887
+-------------------------------------
+(["Please address the author's specific directions here."], 'Root')
+-------------------------------------
+(['Please discuss and comment on the feedback control loop diagram(s) in this paper.'], 'Root')
+-------------------------------------
+(['Are morally relevant facts identified and associated with potential decisions and outcomes?'], 'Root')
+-------------------------------------
+(['How well are possible courses of action identified and differentiated?'], 'Root')
+Root : Take a look at the Concept Art and/or read the General Look and Feel section in the GDD.
+1 Do you have a good idea about what the game's supposed to look like? : 0.169807552651
+Root : Read the Story/Theme Information section in the GDD.
+1 How appropriate do you believe the game is for its intended target market? : 0.155952380952
+2 In other words, do you believe the people the game's intended for will enjoy it? : 0.188888888889
+Root : Read the Game Summary Paragraph in the GDD.
+1 What is your first impression about the game? : 0.35
+2 If you were to sponsor/follow its development, would you? : 0.119711538462
+-------------------------------------
+(['Optionally, leave any comments about the project here.'], 'Root')
+-------------------------------------
+(["Do you have any other helpful feedback you'd like to share?"], 'Root')
+Root : Play the demo.
+1 How well does it match up to the GDD that you've read? : 0.25
+2 Does it show promise of being completed by the end of the second half of the semester? : 0.208333333333
+3 As an alpha build (a developmental test build with more planned features to be added in the future), the game doesn't have to be complete, but it should be playable from start to end (with or without bugs) to give you an idea of what the game will be like. : 0.196428571429
+Root : Read the Summary of the Gameplay section in the GDD and refer to the Info Architecture/Mock-up diagrams.
+1 How clear is the play-by-play of the game? : 0.124074074074
+2 Can you imagine how the game is played from the information provided (without playing the demo)? : 0.310042735043
+-------------------------------------
+(['What are the strengths of this project?'], 'Root')
+-------------------------------------
+(['What are the weaknesses of this project?'], 'Root')
+Root : Below is a link to a short article about the characteristics of good interaction design.
+1 Choose one characteristic (ie:  understanding, meaning, value, engagement, fit, emotion, impact, responsiveness) and evaluate the interaction design in this project in terms of this characteristic. : 0.597222222222
+2 http://www.quora.com/What-are-the-characteristics-of-good-interaction-design : 0.0846681096681
+-------------------------------------
+(["Please comment on your classmate's work."], 'Root')
+-------------------------------------
+(['Coverage'], 'Root')
+-------------------------------------
+(['Clarity'], 'Root')
+-------------------------------------
+(['What aspect of this video needs the most improvement?'], 'Root')
+-------------------------------------
+(['What is strongest about this video?'], 'Root')
+-------------------------------------
+(['Organization'], 'Root')
+-------------------------------------
+(['Given what you know of this person and what they are trying to achieve, how would you "obstruct" their process to make it more challenging but also to drive the end result to a higher level or work?'], 'Root')
+Root : Does the story board include a variety of shots?
+1 Does it include descriptions of each scene? : 0.426388888889
+2 How could it be improved to be more clear? : 0.333333333333
+3 What works really well as it is? : 0.333333333333
+4 In brief, what are the strengths and weaknesses of this narrative and concept? : 0.1924001924
+Root : What part of this work (just the part shown here) is the strongest?
+1 Why? : 0.0
+Root : What part of this work (just the part shown here) needs the most improvement?
+1 Why? : 0.0
+2 Be specific, cite examples, you must write something here. : 0.317063492063
+3 Do not leave this blank. : 0.173611111111
+4 There must be something that can be improved. : 0.291666666667
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+Root : What connection do you see between the story board and the artist's conceptual goals?
+1 How could this connection be made stronger? : 0.395804988662
+Root : Are the samples done correctly?
+1 Does the two as one use VALUE difference? : 0.481481481481
+2 Does the one as two use SUBTRACTION, meaning the central hue looks like a mixture of the two different background hues? : 0.481481481481
+Root : Do the exerceise work?
+1 Do the two different colors appear the same? : 0.53125
+2 Does the one color appear as two? : 0.55
+-------------------------------------
+(['Any additional comments or thoughts?'], 'Root')
+Root : Please add a sentence or two for feedback to each patch assigned to you.
+1 Think about the code in general; how easy it was to understand; did the patch demonstrate a concept that worked for you? : 0.338888888889
+Root : Please point out if any of those does not work or is missing from the reviewed system.
+1 Are these functionalities fully and correctly implemented? : 0.247383568812
+Root : Provide comments on the five reports in accord with the evaluation rubric.
+1 Note: Your task is to provide constructive comments. : 0.311666666667
+2 _Do not provide scores_ . : 0.0
+-------------------------------------
+(['Comment on your colleague\'s concept of "unintended consequences".'], 'Root')
+-------------------------------------
+(['Are the writeup mechanics -- spelling, punctuation, formatting -- correct?'], 'Root')
+-------------------------------------
+(['Critique the essay here.'], 'Root')
+Root : Does the problem appear to be original?
+1 (Please Google and try to find it.) : 0.244444444444
+-------------------------------------
+(['Is the problem relevant to the material covered in class?'], 'Root')
+Root : Write a short paragraph about what you see when you run this project.
+1 What happens? : 0.216666666667
+2 What is missing? : 0.216666666667
+Root : Write a short paragraph about what you see when you run this game.
+1 Can you play the game? : 0.326666666667
+2 Is it fun or interesting? : 0.198181818182
+3 Is something missing? : 0.216666666667
+4 Did you have any issues? : 0.177222222222
+Root : Rank the project based on how they exhibit the most complex behavior.
+1 #1 shows the most complex behavior. : 0.553463203463
+-------------------------------------
+(['Would doing the problem help students to learn the material?'], 'Root')
+-------------------------------------
+(['Is the problem stated clearly?'], 'Root')
+-------------------------------------
+(['Do the page(s) identify several issues that are important in learning about the topic?'], 'Root')
+-------------------------------------
+(['Required Comment'], 'Root')
+-------------------------------------
+([' Please now rank the patches based on the comments that you have written.'], 'Root')
+Root : Write a sentence or two on the patch that you have been allocated.
+1 For example, can you understand what is going on in the patch? : 0.46455026455
+2 Is the sound quality clear? : 0.317063492063
+3 Is the design effective as something that, for example, a sound designer could use? : 0.311772486772
+4 Be constructive and polite. : 0.196225996226
+Root : Run the sketch to see the result, then look at the code.
+1 Write any feedback, or thoughts about the result. : 0.25867003367
+Root : What observations to you have about the code in this project.
+1 Do you understand how it was made? : 0.333333333333
+2 Is the code easy to read? : 0.477777777778
+3 Any other comments about how the sketch was made? : 0.19696969697
+-------------------------------------
+(['Password Strength policy points (10 points)'], 'Root')
+-------------------------------------
+(['Audit/logging implementation (15 points)'], 'Root')
+-------------------------------------
+(['Password Strength policy proof (10 points)'], 'Root')
+-------------------------------------
+(['Client-side bypassing with ZAP (15 points)'], 'Root')
+-------------------------------------
+(['Fuzzing with ZAP (15 points)'], 'Root')
+-------------------------------------
+(['Static analysis with Fortify (20 points)'], 'Root')
+Root : Admin should be able to view the history of both books and library members.
+1 Check the functionalities for admin below and see if they all work:
+1) Can an admin view the checkout history of a book? : 0.495238095238
+2 2) Can (s)he view the checkout history of a library member? : 0.648717948718
+Root : Admin should be able to view and edit the profiles of books.
+1 Check the functionalities for admin below and see if they all work:
+1) Can an admin add books? : 0.338571428571
+2 2) Can an admin view the list of all the books? : 0.283888888889
+3 3) Can an admin view the details of a book? : 0.293975468975
+4 4) Can an admin edit the details of a book? : 0.293975468975
+5 5) Can an admin change its status i.e., check out or return a book on behalf of a library member? : 0.375
+Root : The library members should be able to perform basic actions on the books.
+1 Check the functionalities for library members below and see if they all work:
+1) Can a library member search for books (with ISBN, title, author, description or status)? : 0.55
+2 2) Can a library member view the details of a book? : 0.475
+3 3) Can a library member check out an available book? : 0.55
+4 4) Can (s)he return it? : 0.25
+5 5) Can a library member view his/her own checkout history? : 0.373717948718
+Root : This project should support the basic functionalities for library members.
+1 Check the functionalities for library members below and see if they all work:
+1) Can a user sign up to become a library member? : 0.708333333333
+2 2) Can (s)he log in after sign up? : 0.146124708625
+3 3) Can (s)he edit his profile? : 0.131060606061
+4 4) Can (s)he log out? : 0.333333333333
+Root : The admin should be able to delete an user who does not have any book checkout currently.
+1 Check the functionalities for admin below:
+1) Can an admin delete a library member who is not holding any book? : 0.522916666667
+2 2) See what happens to the checkout history of the books that were checked out by him/her. : 0.57380952381
+3 Is it intuitive or described in the README file? : 0.305248917749
+Root : The admin should be able to delete an uncheck book.
+1 Check the functionalities for admin below:
+1) Can an admin delete an unchecked book? : 0.527777777778
+2 2) See what happens to the checkout history of the users who once checkout that book. : 0.527777777778
+3 Is it intuitive or described in the README file? : 0.4375
+Root : Are the extra credit features implemented?
+1 Please check the functionalities below:
+1) Can a library member register to receive a notification email when a book becomes availalbe? : 0.163005050505
+2 2) Can a library member submit suggestions for new books? : 0.220833333333
+3 3) Can admins view and approve the suggestions? : 0.134027777778
+4 4) Can Admins edit book details during the approval process? : 0.185227272727
+5 5) Can the suggested books be seen after approval? : 0.352564102564
+Root : Special test case A: The system should handle the scenario that admins delete a book which is currently checked out.
+1 Please check:
+1) Is this case considered and handled properly in this project? : 0.427160493827
+2 2) Is this scenario describe in the README file? : 0.339565527066
+3 Special test case B: The system should handle the scenario that admins delete users who are currently holding books. : 0.863636363636
+4 Please check:
+1) Is this case considered and handled properly in this project? : 0.427160493827
+5 2) Is this scenario describe in the README file? : 0.339565527066
+-------------------------------------
+(['Did the team kept on submitting their changes throughout the project?'], 'Root')
+-------------------------------------
+(['Has this team thoroughly tested at least one model and one controller?'], 'Root')
+Root : Code quality: Is the code written in a clean and readable way?
+1 For example- 1) One method should only handle one task, if there are multiple task, it should be a function call. : 0.299206349206
+2 E.g. : 0.0
+3 when a library member book a room, a system record (user history) should be added. : 0.316666666667
+4 Is adding system records done by a separate method call? : 0.300198412698
+5 2) Is there any bad naming in this project? : 0.276388888889
+6 3) Other problem with coding such as long methods, too many nested blocks, etc. : 0.177513227513
+7 Leave comments below if you find any issue with the coding. : 0.189087301587
+Root : 2.
+1 EXTRA CREDIT  - Create a screencast of the lesson providing compliments and suggestions as you scroll through the page. : 0.0
+2 Paste the link to the screencast video here. : 0.0
+Root : Please comment on your classmate's remarks on open and closed worlds.
+1 Did they miss anything? : 0.333333333333
+2 Was there anything they found that you didn't? : 0.1268997669
+3 Any interesting insights? : 0.147474747475
+Root : Evaluate each of your five assigned reviews in accord with the ideas laid out in the documents _Guidelines for doing Computing Projects_ and _Evaluation of Computing Projects_.
+1 These documents can be found on the Bb course website under the tab _Computing Projects_. : 0.270138888889
+-------------------------------------
+(["Please comment on your classmate's exploration of the concepts of complexity, environment, agents, and fitness in Simon's Ant."], 'Root')
+Root : Level Design: In many games, the first level is generally where players are introduced to the game and can play around and get used to the controls (think tutorials).
+1 In the first area, how "easy" was it for you to figure out your objective (i.e. : 0.31902507215
+2 where you were supposed to go) while getting used to the controls? : 0.425584415584
+-------------------------------------
+(['Are unfamiliar terms defined?'], 'Root')
+-------------------------------------
+(['Attack Tree 2 Substantiation'], 'Root')
+-------------------------------------
+(['Clarity of exercises: How clear are the exercises'], 'Root')
+-------------------------------------
+(['Coverage of exercises: How well do the exercises cover the material?'], 'Root')
+-------------------------------------
+(['OWASP A3, Test Case 1'], 'Root')
+Root : What part of this work (just the part shown here) needs the most improvement?
+1 Why? : 0.0
+2 Be specific, cite examples, you must write something here. : 0.317063492063
+3 Do not leave this blank. : 0.173611111111
+4 There must be something that can be improved. : 0.291666666667
+-------------------------------------
+(['Any additional comments or thoughts?'], 'Root')
+Root : What part of this work (just the part shown here) is the strongest?
+1 Why? : 0.0
+-------------------------------------
+(['OWASP A2, Test Case 2'], 'Root')
+-------------------------------------
+(['Can an admin log in?'], 'Root')
+-------------------------------------
+(['Check the basic functionalities for admins below and see if they all work:'], 'Root')
+-------------------------------------
+(['Can (s)he log out?'], 'Root')
+-------------------------------------
+(['Can (s)he edit his profile?'], 'Root')
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+-------------------------------------
+(['Please rank the projects you are reviewing from 1 (best) to 5 (less best).'], 'Root')
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+-------------------------------------
+(['OWASP A4, Test Case 1'], 'Root')
+-------------------------------------
+(['OWASP A3, Test Case 2'], 'Root')
+-------------------------------------
+(['Describe the third most important issue regarding the argument.'], 'Root')
+-------------------------------------
+(['Describe the most important issue regarding the research design.'], 'Root')
+-------------------------------------
+(['Optional Comment on the learning targets'], 'Root')
+Root : Check the basic functionalities for admins below and see if they all work:
+1) Can an admin log in?
+1 2) Can (s)he edit his profile? : 0.136666666667
+2 3) Can (s)he log out? : 0.25
+Root : Provide comments on (1) _Technical Accuracy_, (2) _Interest and insight_, and (3) _Quality of Report_ in accord with the evaluation rubric.
+1 Note: Your task is to provide constructive comments. : 0.358333333333
+2 _Do not provide scores_ . : 0.0
+Root :  Has this team incorporated design patterns into its code?
+1 Is polymorphism used where appropriate, instead of anti-patterns such as testing the class of objects? : 0.166937229437
+Root : Provide comments on (1) _Technical Accuracy_, (2) _Interest and insight_, and (3) _Quality of Report_ in accord with the evaluation rubric.
+1 Note: Your task is to provide constructive comments. : 0.358333333333
+2 _Do not provide scores_ . : 0.0
+Root : Is the organization logical?
+1 Does the supplement proceed in logical fashion? : 0.492063492063
+2 Are topics covered to a reasonable depth, without any topic being overemphasized? : 0.571428571429
+3 Are there long lists of items in seemingly random or arbitrary order, without any recognizable connection? : 0.25
+-------------------------------------
+(['Would the chapter be comprehensible to someone who has read the corresponding chapter in the Solihin text?'], 'Root')
+-------------------------------------
+(['Required comment on the multiple-choice questions'], 'Root')
+-------------------------------------
+(['Are the sentences clear, and non-duplicative?'], 'Root')
+-------------------------------------
+(['Describe the most important issue regarding the argument.'], 'Root')
+-------------------------------------
+(['Are the paragraphs of reasonable length?'], 'Root')
+-------------------------------------
+(['Where tables or figures would elucidate the material, are they provided?'], 'Root')
+-------------------------------------
+(['Describe the second most important issue regarding the argument.'], 'Root')
+Root : List the unfamiliar terms used in this wiki.
+1 Are those unfamiliar terms well defined or linked to proper references? : 0.619047619048
+-------------------------------------
+(["What have you learnt from critiquing this student's notes that will help improve your own?"], 'Root')
+-------------------------------------
+(['Are there edge cases that were not considered that would cause things to break?'], 'Root')
+Root : Can an admin user be created?
+1 Can an admin user create Employers? : 0.416666666667
+2 Do Jobs and Applications do something sane upon delete of the Employer (say, disappear) : 0.305555555556
+Root : Can a search be performed?
+1 How effective is the search? : 0.777777777778
+2 Does it require a login to search (it shouldn't)? : 0.555555555556
+3 Do searches return results that they "shouldn't"? : 0.555555555556
+-------------------------------------
+(['Did the developers use version control throughout the project, or do you just see a few large commits towards the end?'], 'Root')
+Root : Can an Employer see the JobApplications on the Job(s) that they have created?
+1 Can they update the status of the same? : 0.225555555556
+-------------------------------------
+(['Does the code for the application exhibit good o-o style?'], 'Root')
+-------------------------------------
+(['Can a JobSeeker view related Jobs based on what Jobs they have applied to in the past?'], 'Root')
+Root : Does the code for the application exhibit good o-o style?
+1 Are unit, functional and integration tests written? : 0.179365079365
+2 Do they cover all the major functionality required in the application? : 0.468975468975
+-------------------------------------
+(['Please comment on each book addressing the following: sequence: how does the book flow?'], 'Root')
+-------------------------------------
+(['Please comment on the following: Layout: how does the layout affect the way you read the photos?'], 'Root')
+-------------------------------------
+(['Please comment on the following: content.'], 'Root')
+Root : What is the first thing you noticed about this resume?
+1 If you had to characterize this person in 3 words based only on the style of the resume, what 3 words would you choose? : 0.425
+-------------------------------------
+(['What aspect of this resume design would you improve upon or change?'], 'Root')
+Root : Run the sketch to see the result, then look at the code.
+1 Write any feedback, or thoughts about the result or how it was made. : 0.294318181818
+Root : What principle of design is the strongest/best implemented in this resume?
+1 (balance, contrast, alignment, proximity, consistency/repetition, white space?) : 0.183888888889
+Root : Coverage: does the artifact cover all the important aspects that readers need to know about this topic?
+1 Are all the aspects discussed at about the same level of detail? : 0.309924643258
+-------------------------------------
+(['PEDAGOGY of lesson'], 'Root')
+Root : Describe how the work makes you think or feel.
+1 What does the work remind you of? : 0.633333333333
+2 Use expressive language. : 0.3
+Root : Present you opinion of the work's successes, potentials, and challenges.
+1 Explain the qualities that make you think this way. : 0.168253968254
+2 What criteria are you judging the work against? : 0.276124338624
+Root : Describe the work without using value words.
+1 Name the elements of the work and the technical qualities. : 0.391774891775
+Root : Describe how the work is organized as a composition.
+1 Identify design principles used. : 0.218560606061
+-------------------------------------
+(['Is the solution to the problem correct and unambiguous?'], 'Root')
+Root : Talk about the images used--what is the effect of the appropriated images?
+1 Are they obviously part of the work? : 0.194444444444
+2 Do you think the work justifies the appropriation? : 0.178451178451
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+Root : Describe the styling of this web browsing experience.
+1 What is the color scheme? : 0.116883116883
+2 Text layout? : 0.1125
+3 Size of elements relative to each other? : 0.0916666666667
+4 Value contrast? : 0.107954545455
+5 etc. : 0.0
+-------------------------------------
+(['Summarize what happened in the story path you took.'], 'Root')
+Root : What is the strongest part of this person's project?
+1 What is the weakest? : 1.0
+Root : Does the styling support the mood or theme of the story?
+1 How so? : 0.25
+Root : Please describe your experience of the work.
+1 What do you see in these images? : 0.134006734007
+-------------------------------------
+(["Considering the discussion in the Tracy text on what makes for a good research questions, what feedback do you have on this classmate's proposed research question or questions?"], 'Root')
+Root : In what ways does this classmate's research promise to shed light on significant social or academic issues?
+1 Is there an angle or approach that could help them bolster this rationale? : 0.158234126984
+2 [If desired, this feedback might include pointing the student to a practical issue that their research is related to or pointing them to theories or areas of literature that might be useful for framing their research] : 0.392762445887
+Root : Which of this classmate's research ideas is your favorite and why?
+1 Among others, consider issues of significance (practical and theoretical), yield, and feasibility. : 0.214393939394
+Root : For your favorite of this student's research ideas, please provide some feedback on the extent to which this students' proposed data sources will serve to answer their research questions and any advice you might have (in terms of either modifying the research questions or the data sources so they DO better match).
+1 In Tracy chapter #1, this is referred to as "suitability." : 0.151791691215
+-------------------------------------
+(["Please address the author's specific directions here."], 'Root')
+-------------------------------------
+(['IMPORTANCE of information'], 'Root')
+-------------------------------------
+(['The write-up is complete: it covers the topic; no needed information is missing.'], 'Root')
+Root : For 'how do we know' assignments: the write-up explains the evidence clearly including experiments conducted, explanations, predictions, and outcomes.
+1 For 'What is the historic development of this idea' and 'What are modern applications of this idea' assignments, the write-up contains appropriate links and credits any sources used. : 0.285064935065
+-------------------------------------
+(['The write-up contains sufficient information for a peer to improve their understanding of the topic.'], 'Root')
+-------------------------------------
+(['The write-up is clear and well organized; it is easy to read and find information when looking at the write-up.'], 'Root')
+-------------------------------------
+(['The write-up explains the topic with well-supported arguments and examples.'], 'Root')
+-------------------------------------
+(['The write-up has clean mechanics (spelling, grammar, punctuation).'], 'Root')
+-------------------------------------
+(['Be as descriptive as possible'], 'Root')
+Root : Critique of Tech Report.
+1 The more in depth the better : 0.0862470862471
+-------------------------------------
+(['How many instances of Error 8, "Treating collaboration as a transitive relationship" can you find in this submission?'], 'Root')
+-------------------------------------
+(['How many instances of Error 5, "Confusing inheritance with aggregation" can you find in this submission?'], 'Root')
+-------------------------------------
+(['How many instances of Error 7, "Confusing ambiguity with synonyms" can you find in this submission?'], 'Root')
+-------------------------------------
+(['How many instances of Error 6, "Confusing an object with an aggregation of such objects" can you find in this submission?'], 'Root')
+-------------------------------------
+(['How many instances of Error 1, "Using a class name that is not a singular noun" can you find in this submission?'], 'Root')
+-------------------------------------
+(['How many instances of Error 3, "Defining a new class where an existing (usually primitive) object would suffice" can you find in this submission?'], 'Root')
+-------------------------------------
+(['How many instances of Error 2, "Naming a system class as a key abstraction of the program" can you find in this submission?'], 'Root')
+-------------------------------------
+(['Pull Request'], 'Root')
+Root : What do you think are the project's strengths?
+1 What aspects of the project are most polished and thought through? : 0.686666666667
+Root : In 1-2 sentences, describe this final project.
+1 How does this project address the challenge of creating a future book? : 0.416666666667
+-------------------------------------
+(['What do you see as the most significant challenges this team will face in achieving their goals?'], 'Root')
+Root : Where does this project need improvement?
+1 What gaps need filling? : 0.143939393939
+Root : Provide comments on (1) _Technical Accuracy_, (2) _Interest and insight_, and (3) _Quality of Report_ in accord with the evaluation rubric.
+1 Note: Your task is to provide constructive comments. : 0.358333333333
+2 _Do not provide scores_ . : 0.0
+-------------------------------------
+(['Are there an appropriate number of examples?'], 'Root')
+-------------------------------------
+(['Is the article easy to read and not confusing?'], 'Root')
+-------------------------------------
+(['Does the article cover all of the issues mentioned in the writeup?'], 'Root')
+-------------------------------------
+(["Please comment on your classmate's assignment."], 'Root')
+-------------------------------------
+(['Compiling the Report: Part 4'], 'Root')
+Root : Write a critique of one section of the report.
+1 If you get your own report, critique it just like you would any other report. : 0.4125
+2 If you get the same report multiple times, then critique different sections. : 0.6125
+-------------------------------------
+(['How well is the technical issue and resulting ethical dilemma identified and explained?'], 'Root')
+-------------------------------------
+(['Is there anything the student might have done to improve the video?'], 'Root')
+-------------------------------------
+(['Examples'], 'Root')
+-------------------------------------
+(['Links'], 'Root')
+-------------------------------------
+(['Grammar'], 'Root')
+-------------------------------------
+(['Provide a brief summary of the technology that was presented in the video.'], 'Root')
+-------------------------------------
+(['What did you learn from watching the TT?'], 'Root')
+-------------------------------------
+(['What did the student do well in their TT?'], 'Root')
+Root : Please point out if any of those does not work or is missing from the reviewed system.
+1 Are these functionalities fully and correctly implemented? : 0.247383568812
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+Root : Please point out if any of those does not work or is missing from the reviewed system.
+1 Are these functionalities fully and correctly implemented? : 0.247383568812
+-------------------------------------
+(['Is there anything the student could have improved on?'], 'Root')
+-------------------------------------
+(['Write one compliment for the article.'], 'Root')
+-------------------------------------
+(['The questions assess the learning target(s)'], 'Root')
+Root : Evaluate each of your five assigned reviews in accord with the ideas laid out in the documents _Guidelines for doing Computing Projects_ and _Evaluation of Computing Projects_.
+1 These documents can be found on the Bb course website under the tab _Computing Projects_. : 0.270138888889
+-------------------------------------
+(['Write one suggestion for the article.'], 'Root')
+Root : Download and open the sequencer patch, then write a critique of the work.
+1 Focus initially on a simple description of the work. : 0.300198412698
+2 Then a technical analysis (how does it work), and finally a conceptual analysis (what did the author create, how did it make you feel?). : 0.304545454545
+3 Offer a concrete suggestion on how the author might improve this work. : 0.30101010101
+Root : Does the motion that you see match the description of behavior in Question 2 of the assignment?
+1 Why or why not? : 0.277777777778
+Root : Is the code well formatted and largely adherent to the Ruby Style Guide?
+1 https://github.com/bbatsov/ruby-style-guide : 0.0895387700535
+Root : Are all the required features present in this code?
+1 (See http://www.csc.ncsu.edu/faculty/efg/517/s15/assignments, then click on "Program 2 (OSS)" and then "Assignment materials") : 0.141666666667
+Root : Have a look at the assigned mapping sketches that you have received and give some feedback on each of the ideas.
+1 Try not to focus on the types of gear used, and so on, but the actual mapping choices made, and how interesting/clever/thoughtful you find them (or not). : 0.306172839506
+2 Ensure you give some reasoning behind your critique/appraisal (i.e. : 0.479166666667
+3 not just 'good' or 'bad'). : 0.3125
+4 You should be able to rate the designs once you have done this (we'll see how CritViz goes for this, as I've not used this feature before). : 0.370275403609
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+-------------------------------------
+(['Has this team avoided duplication of code?'], 'Root')
+-------------------------------------
+(['Mechanics of writing: How correct are the spelling, grammar, and punctuation?'], 'Root')
+Root : Do you have any other global feedback or thoughts based on the classmate's current questions or concerns?
+1 If not, just write, "nothing." : 0.188794191919
+Root : A primary goal of this exploratory method is to orient the researcher to the scene, and to begin to see the different elements in the map and tour as "evidence" for emerging claims.
+1 In what ways did this classmate's practica accomplish these goals? : 0.247763347763
+2 From the map and narrative tour that the classmate provided, what do YOU see as potentially most striking or interesting in terms of what the data suggests about the site or people of study? : 0.363463718821
+3 How might the student follow up on this emerging interpretation in future data collection? : 0.239569160998
+-------------------------------------
+(['Compiling the Report: Part 1'], 'Root')
+-------------------------------------
+(['Do the page(s) stick to the topic?'], 'Root')
+-------------------------------------
+(['Does the writeup clearly indicate how to run the project or the tests?'], 'Root')
+-------------------------------------
+(['Does the analysis clearly identify the ethical issues?'], 'Root')
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+-------------------------------------
+(['Is the organization of page(s) logical?'], 'Root')
+-------------------------------------
+(['Security Requirement 9'], 'Root')
+-------------------------------------
+(['What other sources or perspectives might the author want to consider?'], 'Root')
+Root : Give compliments for the article.
+1 Separate them with line breaks. : 0.174747474747
+-------------------------------------
+(['Do the page(s) treat differing viewpoints fairly?'], 'Root')
+Root : Give suggestions for the article.
+1 Separate them with line breaks. : 0.183080808081
+-------------------------------------
+(['    Does the writeup clearly describe how the code has been written or changed, and/or the testing strategy?'], 'Root')
+-------------------------------------
+(['Organization: how logical and clear is the organization?'], 'Root')
+-------------------------------------
+(['Definitions'], 'Root')
+-------------------------------------
+(['    Would someone who was new to this OSS project be able to understand this writeup without reading a lot of other documentation?'], 'Root')
+-------------------------------------
+(['The second question assesses reasoning (students have to apply the information they learned to solve a novel problem)'], 'Root')
+Root : Has this team incorporated design patterns into its code?
+1 Is polymorphism used where appropriate, instead of anti-patterns such as testing the class of objects? : 0.166937229437
+-------------------------------------
+(['Security Requirement 10'], 'Root')
+-------------------------------------
+(['The more in depth the better'], 'Root')
+-------------------------------------
+(['The more in depth the better.'], 'Root')
+-------------------------------------
+(['OWASP A10, Test Case 2'], 'Root')
+Root : Provide comments on the technical accuracy, interest, insight, and quality of the report, in alignment with the evaluation rubric.
+1 Note: Your task is to provide constructive comments that will help the author improve future reports. : 0.349382716049
+2 _Do not provide scores_. : 0.0
+Root : Rate the English usage.
+1 Give a list of spelling, grammar, punctuation mistakes or language usage mistakes you can find in this wiki (e.g. : 0.177777777778
+2 ruby on rails -> Ruby on Rails). : 0.0674710910005
+-------------------------------------
+(['Has this team thoroughly tested at least one model and one controller?'], 'Root')
+-------------------------------------
+(['Did the team keep on pushing their changes throughout the project period?'], 'Root')
+-------------------------------------
+(['Feedback goes here'], 'Root')
+Root : List any related terms or concepts for which the writer failed to give adequate citations and links.
+1 Rate the helpfulness of the citations. : 0.239538239538
+-------------------------------------
+(['Comment on aesthetics issues of any aspect of this project.'], 'Root')
+-------------------------------------
+(['Suggestions on the performance.'], 'Root')
+-------------------------------------
+(['Comment on technical issues of any aspect of this project.'], 'Root')
+Root : Conceptual.
+1 Personal. : 0.0
+2 Without judgement or suggestion of changes, address the communicative power of the work just presented. : 0.0
+3 What has meaning for you about this work? : 0.0
+4 What was "stimulating, surprising, evocative, challenging, memorable, touching or meaningful to you". : 0.0
+Root : Basic functionalities: Does this system work as it is supposed to?
+1 If you found any problems in first round, did the authors fix them? : 0.317003367003
+2 Comment on any functionality that is still failing. : 0.447222222222
+Root : Technical.
+1 Your experience of getting the patch to work. : 0.1
+2 Did it work? : 0.0
+3 Try to take the patch apart and figure out how it works. : 0.1
+4 How does this patch work? : 0.1
+5 Did you learn anything from how this patch was made? : 0.1
+6 How would you have coded this differently? : 0.0
+-------------------------------------
+(['Give feedback to each project proposal [3 in total], using the original assignment prompts to help guide your feedback.'], 'Root')
+Root :     Do the author(s) explain what design principles or patterns have been used and where they have been applied?
+1 Or, for a testing project do the authors clearly describe how they decided what tests to write? : 0.407070707071
+-------------------------------------
+(['Part 3 - Protection Poker Requirement 2'], 'Root')
+-------------------------------------
+(['Part 3 - Protection Poker Requirement 1'], 'Root')
+-------------------------------------
+(['Part 3 - Protection Poker Requirement 4'], 'Root')
+-------------------------------------
+(['Part 3 - Protection Poker Requirement 3'], 'Root')
+-------------------------------------
+(['Part 3 - Protection Poker Paragraphs'], 'Root')
+-------------------------------------
+(['Part 3 - Protection Poker Requirement 5'], 'Root')
+-------------------------------------
+(['Part 4 - Bug Fix 1'], 'Root')
+-------------------------------------
+(['Part 4 - Bug Fix 3'], 'Root')
+Root : Conceptual.
+1 Personal. : 0.0
+2 Without judgement or suggestion of changes, address the communicative power of the work just presented. : 0.0
+3 What has meaning for you about this work? : 0.0
+4 Considering the content which was the "progression video", what was "stimulating, surprising, evocative, challenging, memorable, touching or meaningful to you". : 0.0
+-------------------------------------
+(['Are there an appropriate number of links to outside sources?'], 'Root')
+Root : Technical.
+1 Your experience of getting the patch to work. : 0.1
+2 Did it work? : 0.0
+3 Try to take the patch apart and figure out how it works. : 0.1
+4 How does this patch work? : 0.1
+5 Did you learn anything from how this patch was made? : 0.1
+6 How would you have coded this differently? : 0.0
+Root : Can a search be performed based on user, content and category?
+1 Does it require a login to search (it shouldn't)? : 0.330447330447
+2 Do searches return results that they "shouldn't"? : 0.337868480726
+3 Do searches return all results that match? : 0.337868480726
+-------------------------------------
+(['Are the posts displayed based on when they were last modified (creation of a post, editing a post, adding/editing a comment on that post or a vote for the post or one of the comments should be considered as modifications)?'], 'Root')
+Root : Do posts/comments do something sane upon deletion of the user (either the post becomes Anonymous or gets deleted)?
+1 What about votes? : 0.0882409257409
+2 Do they remain consistent? : 0.556666666667
+-------------------------------------
+(['How well is this submission written, including organization, focus, readability, and use of the supplied template.'], 'Root')
+Root : Can an admin assign admin rights to a user?
+1 Can an admin delete other users and other admins? : 0.538461538462
+2 Is it possible for the admin to view reports on post activity? : 0.105555555556
+Root : List the steps you went through on each reading.
+1 Like this:  story1.html - story3.html - story 8.html : 0.104274891775
+Root : Describe the overall mood and feel of the story.
+1 What is your overall emotional response to the story? : 0.553977272727
+-------------------------------------
+(['The more in depth the better'], 'Root')
+Root : Is the new code adequately tested with passing test cases?
+1 Run the tests and verify that they pass. : 0.429487179487
+Root : Does the story remind you of any other stories you have read or movies you have seen?
+1 How so? : 0.29
+2 Can you identify any metaphors in the story? : 0.403472222222
+-------------------------------------
+(['What works really well in the story, what parts could be improved / expanded, and why?'], 'Root')
+Root : How well does the story flow from one page to the next?
+1 Do the transitions and structure make sense? : 0.320833333333
+Root : Are their any structural flaws?
+1 Plot holes? : 0.111111111111
+2 Broken links? : 0.0811688311688
+3 Spelling / grammar errors? : 0.133333333333
+4 Where? : 0.0
+-------------------------------------
+(['Based on the information provided in the blog, I could continue the work of the author of the blog.'], 'Root')
+-------------------------------------
+(['Grammar, Spelling, & Mechanics'], 'Root')
+-------------------------------------
+(['Proposed Analyses'], 'Root')
+Root : (1) Have tests been added to the project?
+1 (2) Do the new tests pass? : 0.395238095238
+2 Leave a comment if any of them fail or are missing. : 0.332467532468
+3 (3) Has the test coverage increased? : 0.583333333333
+Root : Check the code contributed by the author.
+1 Comment if  (1) some of the functions are too long;  (2) some of the code should be extracted into separate methods; (3) more comments are needed, because you have trouble following the code; (4) the code does not follow the Ruby Style Guide, or (5) you find any other code that "smells" or is not DRY. : 0.416666666667
+Root : Look at the newly-added code in the pull request.
+1 Check the variable, method, and class names. : 0.132936507937
+2 List any name(s) that are not reasonable or suggestive of the functionality. : 0.146428571429
+-------------------------------------
+(['Literature Review'], 'Root')
+Root : Manually test the author's work.
+1 Keep in mind of the edge cases if you see any. : 0.155555555556
+2 Do they work as intended? : 0.2
+3 If you find any case for which the code does not work, please describe in the comment box in enough detail. : 0.155555555556
+Root : Given what the group wants to work on conceptually, how does their data set selection fit with that theme?
+1 Could a different data set work better? : 0.335043290043
+2 Or could the underlying concept be made stronger? : 0.280311355311
+3 How so? : 0.316666666667
+Root : Run the exercise sketch.
+1 What is the most unique or interesting part of the sketch? : 0.430303030303
+2 How did they get that to happen in the code? : 0.120085470085
+-------------------------------------
+(['Procedures'], 'Root')
+-------------------------------------
+(['Design'], 'Root')
+-------------------------------------
+(['Measures'], 'Root')
+-------------------------------------
+(['Participants'], 'Root')
+Root : Conceptual.
+1 Personal. : 0.0
+2 Without judgement or suggestion of changes, address the communicative power of the work just presented. : 0.0
+3 What has meaning for you about this work? : 0.0
+4 Considering the content which was the "Motion Detection", what was "stimulating, surprising, evocative, challenging, memorable, touching or meaningful to you". : 0.0
+Root : Put these works into your own subjective rank order from strongest to weakest (rank of 1 is best, 5 is worst).
+1 Please remember you aren't grading your peers, rather you are being graded on how well you can offer meaningful critical feedback. : 0.353282828283
+Root : Please review the code on Git.
+1 How well does the code follow "good Ruby and Rails coding practices"? : 0.44696969697
+Root : Is the library member interface intuitive and easy to use?
+1 If not, is it well described in the README file? : 0.369230769231
+Root : Level Design: After getting used to the controls, players are often using their newly learned skills and developing them through each challenge of the game.
+1 The feeling of success after overcoming each challenge is often what drives players to having fun (therefore wanting to play more of the game). : 0.520918367347
+2 In the second area, how engaged would you say you were while jumping across platforms? : 0.247841047841
+Root : Level Design: Near the end of the game, players are often put to the test to see how far their skills have actually developed (e.g.
+1 a final boss). : 0.166049806675
+2 After overcoming the last challenge, they are often awarded for all their hard work and effort. : 0.319961448808
+3 In the third and final area, how satisfied would you say you were after completing the game? : 0.322845441595
+-------------------------------------
+(["Free response - add anything else you'd like."], 'Root')
+-------------------------------------
+(['Identify one thing that you liked about the methods (you can retype a sentence or summarize what you liked).'], 'Root')
+Root : Does this piece transport someone either to the created story-world or in/around/though it?
+1 What is most successful? : 0.333333333333
+2 How might it be improved? : 0.333333333333
+Root : Does this piece read as a first person narrative that gives you a rich sense of what it's like to be in a place or using a technology?
+1 Even if the world of the story is "our real world" there should be something different about it as a consequence of the technology imagined. : 0.37670995671
+2 Does the travel guide give the reader (who, after all comes from a different world) a clear sense of what that place is like? : 0.606111111111
+3 Where is it most successful and where does it need improvement? : 0.330116550117
+Root : Run the sketch to see the result, then look at the code.
+1 Write any feedback, or thoughts about the result or how it was made. : 0.294318181818
+-------------------------------------
+(['Compiling the Report: Part 2'], 'Root')
+-------------------------------------
+(['What is the central conflict (the why people should care) of this story?'], 'Root')
+-------------------------------------
+(['What technology is being dreamed or prototyped in this story?'], 'Root')
+-------------------------------------
+(['Are there ways that you think the objects could be improved based on what you understand of story?'], 'Root')
+-------------------------------------
+(['In what ways do the three objects help you to understand the story being told?'], 'Root')
+Root : Critique and comments here, write something about each group you receive.
+1 Comment in these three ways:
+1] What did the other group's response to the texts reveal to you themes or ideas that you didn't see when you read it at first? : 0.6125
+2 2] How could they clarify or improve the research/answer/response more? : 0.25
+3 3] What mammal would this be if you had to categorize this as an animal? : 0.130341880342
+Root : Do you have a good sense of the setting of this story?
+1 Can you "say it back" to the author in a single sentence? : 0.201515151515
+-------------------------------------
+(["How about the characters, do you have a sense of who they are, what matters to them (understanding that 1000 words isn't much)?"], 'Root')
+-------------------------------------
+(['What is the motivating conflict of this story?'], 'Root')
+-------------------------------------
+(['What technology is being imagined here?'], 'Root')
+Root : What is at stake in the story?
+1 Said another way, why should we care about this vision of this technology? : 0.132275132275
+Root : Are there suggestions you would make to the author regarding the story, ways to enhance character, setting, or storyline?
+1 Do you have feedback about your level of engagement with the issues/people of this story? : 0.306356421356
+-------------------------------------
+(['Documenting Vulnerabilities and their Fixes'], 'Root')
+-------------------------------------
+(['Read the writeup; check whether it clearly and adequately indicates what functionality the work is related to.'], 'Root')
+-------------------------------------
+(['Does the writeup indicate how to test the new code from UI?'], 'Root')
+-------------------------------------
+(['Security Requirement 1'], 'Root')
+-------------------------------------
+(['Security Requirement 2'], 'Root')
+-------------------------------------
+(['Security Requirement 4'], 'Root')
+Root : Try to test the system with some edge-cases, for example:
+1) What will happen if admin tries to delete a user who is currently enrolled in a course or taking a course?
+1 2) What will happen if a student request to join a course multiple times? : 0.395726495726
+2 will there be multiple requests created? : 0.234343434343
+3 3) What will happen if admin triest to delete an avtive course? : 0.436477411477
+4 Will student lose their grades? : 0.178302253302
+5 Will the user history also be deleted? : 0.287276612277
+6 4) What will happen if admin tried to delte an instructor who is currently teaching a course? : 0.537644300144
+7 5) You can come up with more edge-cases. : 0.24880952381
+8 If the system fails in some edge-cases, leave comment. : 0.250738150738
+9 The README.md should also cover how the system handles edge-cases. : 0.243829247675
+Root : Download and open the sequencer patch, then write a critique of the work.
+1 Focus initially on a simple description of the work. : 0.300198412698
+2 Then a technical analysis (how does it work), and finally a conceptual analysis (what did the author create, how did it make you feel?). : 0.304545454545
+3 Offer a concrete suggestion on how the author might improve this work. : 0.30101010101
+Root : Has this team thoroughly tested at least one model and one controller?
+1 The tests should be meaningful and could fail potentially. : 0.147149321267
+2 E.g., if the author is testing the user, they should test if the system handles the case that if a user can use the same Email to register twice. : 0.346666666667
+3 Give <3> if the author test the code in a <shallow> way. : 0.180404040404
+Root : Check the functionalities of the system, does it work as it supposed to be?
+1 If you find anything failed in first round, did the author fix that? : 0.342063492063
+2 Leave comments if you find any functionality fails. : 0.357142857143
+Root : Why did you prefer your top-ranked project?
+1 What didn't you admire about your lowest-ranked project? : 0.75
+2 (2 sentences) : 0.0939393939394
+Root : Does the prototype appear to give users a chance to engage with an interface or the technology itself?
+1 Are there suggestions that you would make for improvement in this area? : 0.271212121212
+Root : Does the prototype effectively convey some sense of the style/design/aesthetics of the technology?
+1 Are there ways that it could be improved in this respect? : 0.147777777778
+-------------------------------------
+(['does the prototype make you want to know more about the technology, does it "speak" to you?'], 'Root')
+-------------------------------------
+(['If the narrative explains elements/features that are not in the prototype, can you suggest ways for those elements to be included?'], 'Root')
+-------------------------------------
+(['Security Requirement 6'], 'Root')
+Root : Provide comments on (1) _Technical Accuracy_, (2) _Interest and insight_, and (3) _Quality of Report_ in accord with the evaluation rubric.
+1 Note: Your task is to provide constructive comments. : 0.358333333333
+2 _Do not provide scores_ . : 0.0
+Root : There was enough detail in the completed methods that I would be able to reproduce the work.
+1 Comment on why you agreed or disagreed. : 0.202380952381
+Root : Based on the documentation movie alone, describe what the author was able to create.
+1 Did they make good use of the constrained source material? : 0.208395176252
+2 Describe the strengths and weaknesses of this project as demonstrated by the documentation video. : 0.294047619048
+Root : DB design: Does this system handle the 1-to-n and n-to-n relationships properly?
+1 For example, the library member-room relationship should be n-to-n, so there should be a mapping table. : 0.325
+2 Comment on any problem related to these relationships with specification. : 0.302777777778
+Root : What are the weaknesses of this project?
+1 What would you do differently? : 0.333333333333
+-------------------------------------
+(['What are the strengths of this project?'], 'Root')
+Root : Describe the project.
+1 How is Max being used in conjunction with the mechanical system? : 0.0714285714286
+Root : Is the problem a new kind of problem, rather than just an existing problem with slightly different numbers, or a slightly different reference trace, etc.
+1 ? : 0.0
+-------------------------------------
+(['Is the problem original, not taken from any textbook?'], 'Root')
+-------------------------------------
+(['Would doing the problem help students to learn the material?'], 'Root')
+-------------------------------------
+(['Is the problem relevant to the material covered in class?'], 'Root')
+-------------------------------------
+(['Is the problem stated clearly?'], 'Root')
+-------------------------------------
+(['Can a JobSeeker only apply for a Job when logged in?'], 'Root')
+Root : Please make a comment about the sources.
+1 Explain how the author can improve the use of sources in the article. : 0.453703703704
+-------------------------------------
+(['Does each controller and model have at least one test covering it?'], 'Root')
+Root : Are any extra-credit features implemented?
+1 (viz., Cucumber testing, emails to Employers on JobApplications and emails to JobSeekers on status updates ) : 0.109006734007
+-------------------------------------
+(['What suggestions do you have to improve this book.'], 'Root')
+-------------------------------------
+(['An example of the main idea/concept is presented'], 'Root')
+-------------------------------------
+(['The example is explained'], 'Root')
+-------------------------------------
+(["According to professor's rubric, write a brief comment and give a score from 0~100"], 'Root')
+-------------------------------------
+(['Please type your response'], 'Root')
+-------------------------------------
+(['Is the new item computing related?'], 'Root')
+-------------------------------------
+(['OWASP A10, Test Case 1'], 'Root')
+-------------------------------------
+(["Are the author's statements accurate and well supported?"], 'Root')
+-------------------------------------
+(['How well are stakeholders identified, along with potential impacts and risks to them?'], 'Root')
+-------------------------------------
+(['How well is this submission written, including organization, focus, readability, and use of the supplied template.'], 'Root')
+-------------------------------------
+(['OWASP A9, Test Case 2'], 'Root')
+-------------------------------------
+(['There is a single correct (aka: not opinion-based) answer for each question'], 'Root')
+-------------------------------------
+(['Compiling the Report: Part 3'], 'Root')
+-------------------------------------
+(['The questions are appropriate and reasonable (not too easy and not too difficult; incorrect answers are not obviously incorrect)'], 'Root')
+-------------------------------------
+(['Originality'], 'Root')
+-------------------------------------
+(['Required comment on the multiple-choice questions'], 'Root')
+-------------------------------------
+(['Comment on your classmates thoughts on agents and adaptive behavior.'], 'Root')
+-------------------------------------
+(['Does each model have at least one unit test and each controller have one integration test?'], 'Root')
+-------------------------------------
+(['Are any extra credit features implemented - mailing, cucumber tests, burndown chart?'], 'Root')
+-------------------------------------
+(['Optional Comment on the learning targets'], 'Root')
+-------------------------------------
+(['Provide a brief summary of the technology that was presented in the video.'], 'Root')
+Root : Write a few paragraphs.
+1 Respond to the work. : 0.0954545454545
+2 Consider surface things like how well the installation appears to work, attention to detail, documentation quality. : 0.171428571429
+3 But also consider how the installation and the content support each other, the concept and character of the work. : 0.15
+4 What is strong and what is weak? : 0.2
+5 How could this work lead to a better work in a few weeks? : 0.437037037037
+6 Concrete advice. : 0.121428571429
+-------------------------------------
+(['Optional Comment on this section'], 'Root')
+-------------------------------------
+(['xxx'], 'Root')
+-------------------------------------
+(['Is this good?'], 'Root')
+-------------------------------------
+(['Optional Comment on the media'], 'Root')
+-------------------------------------
+(['What did you learn from watching the tech talk?'], 'Root')
+-------------------------------------
+(['What did the student do well in their tech talk?'], 'Root')
+-------------------------------------
+(['Did the team who submitted use version control throughout the project or are there just a few commits towards the end?'], 'Root')
+-------------------------------------
+(['How is the WRITING QUALITY of the lesson?'], 'Root')
+-------------------------------------
+(['How effective is each part of this project: object, projection/content, interactivity?'], 'Root')
+-------------------------------------
+(['How do the three elements (object, projection/content and interactivity work together to form a whole concept or unified project?'], 'Root')
+-------------------------------------
+(['General Advice: comment #2'], 'Root')
+-------------------------------------
+(['General Advice: comment #2'], 'Root')
+-------------------------------------
+(['General Advice: comment #1'], 'Root')
+-------------------------------------
+(['How effective was the PEDAGOGY of the lesson?'], 'Root')
+Root : Can an Admin user create other Admin users?
+1 Create Projects ? : 0.0833333333333
+2 Create Developers? : 0.25
+3 Add Developers to Projects? : 0.25
+Root : Can Developers create Stories?
+1 Can they assign themselves to Stories? : 0.45
+Root : Can Developers delete Stories?
+1 Can they change the state of Stories? : 0.45
+Root : Can Developers view the Stories they have created?
+1 Can they see the Story they are assigned to? : 0.386666666667
+-------------------------------------
+(['Can logged-in Users search for Stories?'], 'Root')
+-------------------------------------
+(['Can Developers view the Storyboard for a Project as described in the specification?'], 'Root')
+-------------------------------------
+(['What aesthetic elements interest you in this object sketch?'], 'Root')
+-------------------------------------
+(['What technical elements (modeling, software, fabrication tools) would you modify to make this object?'], 'Root')
+-------------------------------------
+(['Required Comment'], 'Root')
+-------------------------------------
+(['Required Comment'], 'Root')
+-------------------------------------
+(['OWASP A8, Test Case 1'], 'Root')
+-------------------------------------
+(['Critique of response to "what is a complexity?"'], 'Root')
+-------------------------------------
+(['Critique of response to "what is a system?"'], 'Root')
+-------------------------------------
+(['How could the organization be improved, to make the progression more logical and/or easier for the reader to understand?'], 'Root')
+-------------------------------------
+(['What other sources or perspectives might the author want to consider?'], 'Root')
+-------------------------------------
+(['Security Requirement 7'], 'Root')
+-------------------------------------
+(['OWASP A7, Test Case 2'], 'Root')
+Root : Please make a comment about the sources.
+1 Explain how the author can improve the use of sources in the article. : 0.453703703704
+-------------------------------------
+([' -'], 'Root')
+Root : List the range of publication years for all sources, e.g.
+1 1998-2006. : 0.0
+-------------------------------------
+(['List any sources that may infringe copyrights.'], 'Root')
+-------------------------------------
+(['Explanations: have the authors adequately explained the changes to be made to the system?'], 'Root')
+-------------------------------------
+(['Design: does the design appear to be sound, following appropriate principles and using appropriate patterns?'], 'Root')
+-------------------------------------
+(['Describe any other problems you find in this design.'], 'Root')
+-------------------------------------
+(['After selecting a rating for each of the 5 criteria, add 1 overall comment.'], 'Root')
+Root : Tests: does the design include the test plan?
+1 Are the tests shallow or they will really test the functionalities? : 0.472416472416
+2 (You can leave the grading dropdown blank if no tests are necessary for this project) : 0.488888888889
+-------------------------------------
+(['Complexity: does the design appear to be as simple as possible?'], 'Root')
+Root : Use of visualization: do the class diagram and/or other figures clearly describe the changes to be made to the system?
+1 (You can leave the grading dropdown blank if no visulization is necessary for this project) : 0.234115505706
+Root : Overall, how good is the writeup?
+1 If you found problems with the write-up (lack of explanation of the functionality, lack of explanation of how to check the work..), have the authors improved the writeup accordingly? : 0.333333333333
+Root : Your thoughts on the idea, how well it's constraints may or may not be effective at pushing our work forward.
+1 What would you change? : 0.291666666667
+Root : Did the team add test cases?
+1 Did the coverage increase? : 0.103258547009
+2 How well do the newly added tests cover the range of this project? : 0.558441558442
+Root : Check the commits.
+1 Was new code committed during the 2nd round? : 0.25
+-------------------------------------
+(['Security Requirement 8'], 'Root')
+Root : IF it is an Expertiza project, check the pull request.
+1 Did the build pass in Travis CI? : 0.134126984127
+2 Was there any conflict that must be resolved? : 0.348333333333
+3 You can check those on the pull request on Github. : 0.683333333333
+4 Ignore this question if it is not an Expertiza project. : 0.503333333333
+Root : Do you think that this code is ready to be deployed onto the production server (for the corresponding OSS project)?
+1 If not, what is your biggest concern? : 0.304130216189
+2 Should the project be redone from scratch using a different approach, or is this a good starting place for a future team to pick up? : 0.42170995671
+Root : Rate the overall readability of the article.
+1 Explain why you give this score. : 0.112698412698
+Root : Tests: Has this team thoroughly tested at least one model and one controller?
+1 The tests should be meaningful and have the potential to fail. : 0.400402212167
+2 E.g., if the code is testing a user, it should test whether the system handles the case that of a user using the same email to register twice. : 0.30462962963
+Root : Give comments on the completeness of the design doc.
+1 Is there any important part that is missing or should include more details? : 0.131547619048
+2 (At least the project purpose, project design, and/or testing plan should be stated.) : 0.316666666667
+-------------------------------------
+(["According to professor's rubric, write a brief comment and give a score from 0~100"], 'Root')
+Root : * Describe the work.
+1 * What did you learn from it? : 0.0
+2 * Give some suggestions about how it could be technicall improved. : 0.111111111111
+3 * How could it be conceptually improved (same technology but different content etc.) : 0.2
+Root : What principle of design is the strongest/best implemented in this gig poster?
+1 (balance, contrast, alignment, proximity, consistency/repetition, white space?) : 0.170601851852
+2 Describe what makes you think so. : 0.291666666667
+-------------------------------------
+(['Optional Comment on this section'], 'Root')
+-------------------------------------
+(['Are any extra-credit features implemented?'], 'Root')
+-------------------------------------
+(["Is the prose the author's own, rather than copied from other sources?"], 'Root')
+Root : Edge cases: Try to test the system with some edge cases, for example: (1) What will happen if the admin tries to delete a user who is currently have a room or booking a room?
+1 (2) What will happen if a library member request to book the same room multiple times? : 0.335695187166
+2 will there be multiple requests created? : 0.217275698158
+3 (3) What will happen if admin tries to delete a booked room? : 0.379486036839
+4 Will library member lose their reservation? : 0.180629827689
+5 Will the booking history also be deleted? : 0.305354449472
+6 (4) You can come up with more edge-cases. : 0.264583333333
+7 If the system fails in some edge-cases, explain with enough details. : 0.241666666667
+8 The README.md should also cover how the system handles edge cases. : 0.348109243697
+Root : Can a search be performed by user/content/category/tag?
+1 How effective is the search? : 0.777777777778
+2 Does it require a login to search (it shouldn't)? : 0.555555555556
+3 Do searches return results that they "shouldn't"? : 0.555555555556
+-------------------------------------
+(['Are there enough citations and links to related material?'], 'Root')
+Root : Name one thing about this gig poster that you would recommend changing.
+1 How would you change it, and why? : 0.142857142857
+Root : What is the first thing you noticed about this gig poster?
+1 Put another way, what is the most eye-catching part? : 0.319166666667
+Root : What part of this work (just the part shown here) needs the most improvement?
+1 Why? : 0.0
+2 Be specific, cite examples, you must write something here. : 0.317063492063
+3 Do not leave this blank. : 0.173611111111
+4 There must be something that can be improved. : 0.291666666667
+Root : What part of this work (just the part shown here) is the strongest?
+1 Why? : 0.0
+-------------------------------------
+(['Any additional comments or thoughts?'], 'Root')
+Root : What is the first thing you noticed about this gig poster?
+1 Put another way, what is the most eye-catching part? : 0.319166666667
+Root : Name one thing about this gig poster that you would recommend changing.
+1 How would you change it, and why? : 0.142857142857
+Root : What principle of design is the strongest/best implemented in this gig poster?
+1 (balance, contrast, alignment, proximity, consistency/repetition, white space?) : 0.170601851852
+2 Describe what makes you think so. : 0.291666666667
+-------------------------------------
+(['Ratings'], 'Root')
+Root : Respond to the technical and the conceptual aspects of this collection.
+1 If you were to approach making this collection, how would you modify the concept and the technique. : 0.625
+Root : Download and open the patch.
+1 Before you run the patch, take a look at it. : 0.625
+2 Describe the overall look and feel of the patch. : 0.666666666667
+Root : Please point out if any of those does not work or is missing from the reviewed system.
+1 Are these functionalities fully and correctly implemented? : 0.247383568812
+Root : Describe the patch technically.
+1 How did they approach the coding assignment? : 0.0588235294118
+2 Did they do anything that is surprising or exciting? : 0.0
+3 Did you learn anything from how they did the work? : 0.0666666666667
+4 What could they have done better? : 0.0
+Root : Now try to use the patch and describe your experience.
+1 What's it like -conceptually-, as in, how does it feel to use it? : 0.44696969697
+2 Are the sounds entertaining? : 0.170952380952
+3 Goofy? : 0.0731623931624
+4 Beautiful? : 0.0
+5 What kind of experience does it lead to for you as a user? : 0.354848484848
+Root : Is the user interface intuitive and easy to use?
+1 If not, is it well described in the README file? : 0.466666666667
+2 Point out the places that you find the interface should be improved. : 0.777777777778
+Root : What part of this work (just the part shown here) is the strongest?
+1 Why? : 0.0
+Root : What are the technical & implementation issues that you noticed?
+1 How would you change the implementation? : 0.411111111111
+-------------------------------------
+(['What are the aesthetic considerations that strike you as most interesting with this piece?'], 'Root')
+-------------------------------------
+(['Vulnerability history (15 points)'], 'Root')
+-------------------------------------
+(['WRITING QUALITY of content'], 'Root')
+-------------------------------------
+(['Overall Impression'], 'Root')
+-------------------------------------
+(['Are the variable, method, and class names reasonable and suggestive of the functionality?'], 'Root')
+-------------------------------------
+(['Are there edge cases that were not considered that would cause things to break?'], 'Root')
+Root : Does the chapter cover what the title says it will cover?
+1 If it covers extraneous material, can you remove it? : 0.460042735043
+-------------------------------------
+(['Rate the contribution to your learning (did it help you understand the topic more)'], 'Root')
+Root : Run the sketch to see the result, then look at the code.
+1 Write any feedback, or thoughts about the result or how it was made. : 0.294318181818
+2 What is interesting about this project? : 0.129861111111
+Root : Rate the completeness of the write-up.
+1 Did it present the problem, answer all the subsections, and show all the work? : 0.183333333333
+-------------------------------------
+(['Rate the quality of the in-class presentation'], 'Root')
+-------------------------------------
+(['Rate the appropriateness of the problem to current material.'], 'Root')
+Root : Is the new code adequately tested with passing test cases?
+1 Run the tests and verify that they pass. : 0.429487179487
+Root : Manually test the features.
+1 Do they work as intended? : 0.2
+Root : Do you feel that this code is ready to be deployed onto the production Expertiza server?
+1 If not: What improvements are needed first? : 0.392857142857
+2 Should the project be re-done from scratch using a different approach, or is this a good starting place for a future team to pick up? : 0.408387445887
+-------------------------------------
+(['Is the answer to the exercise correct and unambiguous?'], 'Root')
+-------------------------------------
+(['Is the level of difficulty appropriate for this course?'], 'Root')
+-------------------------------------
+(['Originality'], 'Root')
+-------------------------------------
+(['Is the exercise relevant to the material covered in class?'], 'Root')
+Root : Does the exercise appear to be original?
+1 (Please Google and try to find it.) : 0.240740740741
+-------------------------------------
+(['Would doing the exercise help students to learn the material?'], 'Root')
+-------------------------------------
+(['Are all the assumptions stated clearly?'], 'Root')
+Root : Respond to the images and the proposal.
+1 What do you think of this idea? : 0.1875
+2 What could your classmate do over the next few days to execute this project well? : 0.105555555556
+Root : Talk about the assignment execution.
+1 Describe how your classmate approached this assignment. : 0.0916666666667
+2 Did you find in engaging and interesting? : 0.0
+3 What was particularly effective? : 0.0
+4 What do you think could have been done differently (if anything)? : 0.0
+Root : First, strive to simply "say what you see", not only the project being documented but also the documentation itself.
+1 This is a writing challenge. : 0.305627705628
+2 How do you write clearly about what you see in works like these? : 0.310714285714
+3 How do you form a "judgmental matrix" that strives only for precision of description in such a way that it moves the authors to respond well. : 0.405357142857
+Root : Pose a question for the authors of this work.
+1 We will follow this critique with another mini-assignment that asks the groups to respond, as a group, to the questions they received. : 0.366964285714
+-------------------------------------
+(['The questions assess the learning target(s)'], 'Root')
+-------------------------------------
+(['The questions are appropriate and reasonable (not too easy and not too difficult; incorrect answers are not obviously incorrect)'], 'Root')
+-------------------------------------
+(['Part 4 - Bug Fix 2'], 'Root')
+-------------------------------------
+(['The second question assesses reasoning (students have to apply the information they learned to solve a novel problem)'], 'Root')
+-------------------------------------
+(['There is a single correct (aka: not opinion-based) answer for each question'], 'Root')
+-------------------------------------
+(['The summary/conclusion helps the author understand the significance of the topic for educators'], 'Root')
+-------------------------------------
+(['Required Comment on the conclusion'], 'Root')
+Root : Sometimes the best feedback is simply an honest response about how the work made you feel.
+1 Or even simpler, a description of what you saw. : 0.215151515152
+2 Describe this work and the impression it made on you. : 0.473484848485
+3 What are this work's strengths? : 0.47962962963
+Root : If this group was asked to install or exhibit this work, and had ample time to revise, rework, and refine, what suggestions do you have for technical or conceptual changes.
+1 What are this work's weaknesses? : 0.329151404151
+-------------------------------------
+(['Do the class diagram and/or other figures or text that clearly describe the changes to be made to the system?'], 'Root')
+-------------------------------------
+(['Does the design appear to be as simple as possible, given the requirements?'], 'Root')
+Root : Does the design incorporate all of the functionality required?
+1 (See http://courses.ncsu.edu/csc517/common/homework/project/ideas.html?) : 0.159523809524
+2 [Or, if this is a project idea submitted by students, does the design document clearly explain the required functionality?] : 0.7
+-------------------------------------
+(['Does the design appear to be sound, following appropriate principles and using appropriate patterns?'], 'Root')
+-------------------------------------
+(['Have the authors adequately explained the changes to be made to the system?'], 'Root')
+-------------------------------------
+(['Part 1 - Design Violation 3'], 'Root')
+-------------------------------------
+(['Part 2 - Usability Violation 1'], 'Root')
+-------------------------------------
+(['Part 1 - Design Violation 1'], 'Root')
+-------------------------------------
+(['Part 1 - Design Violation 2'], 'Root')
+Root : Research Plan: First, describe how well the research plan tests the hypothesis.
+1 Then, identify details that were unclear or missing (i.e., elaborate on how the Participants, Measures, Design, and Procedures sections could be improved). : 0.181944444444
+Root : Proposed Analyses: First, describe how well the proposed analyses test the hypothesis given the data collected as described in the research plan.
+1 Then, evaluate whether the implications represent a complete and accurate portrayal of the of expected findings and whether the explanation for why the results might not meet expectations included the most important limitations of the study. : 0.210209235209
+-------------------------------------
+(['APA Styles'], 'Root')
+-------------------------------------
+(['Part 2 - Usability Violation 2'], 'Root')
+-------------------------------------
+(['Part 2 - Usability Violation 3'], 'Root')
+-------------------------------------
+(['Optional Comment on the media'], 'Root')
+-------------------------------------
+(['Is there anything the student could have improved on?'], 'Root')
+-------------------------------------
+(['What did the student do well in their tech talk?'], 'Root')
+-------------------------------------
+(['What did you learn from watching the tech talk?'], 'Root')
+-------------------------------------
+(['Provide a brief summary of the technology that was presented in the video.'], 'Root')
+-------------------------------------
+(['How effective was the PEDAGOGY of the lesson?'], 'Root')
+-------------------------------------
+(['How is the WRITING QUALITY of the lesson?'], 'Root')
+-------------------------------------
+(['How INTERESTING was the content created by the author?'], 'Root')
+-------------------------------------
+(['How CREDIBLE was the lesson produced by the author?'], 'Root')
+Root : Does the writeup explain how and why the authors did the work the way they did?
+1 If they should have used certain design principles or patterns, did they use them correctly? : 0.508395176252
+2 Comment on anything that is missing or hard to follow. : 0.208395176252
+-------------------------------------
+(['How IMPORTANT was the information included by the author?'], 'Root')
+Root : What other global feedback do you want to share (if it's "nothing" just write nothing in the blank).
+1 Only if you strongly desire, feel free to create tracked-changes mark-up on the student's paper and email it to the student with cc to sarah.tracy@asu.edu. : 0.361111111111
+2 We discourage you from using this approach for these early assignments, and if you do, to stay away from heavy editing. : 0.263194444444
+3 The teaching team will keep this on file but does not plan to review this marked up practica in detail. : 0.255808080808
+Root : What part of this work (just the part shown here) is the strongest?
+1 Why? : 0.0
+Root : What part of this work (just the part shown here) needs the most improvement?
+1 Why? : 0.0
+2 Be specific, cite examples, you must write something here. : 0.317063492063
+3 Do not leave this blank. : 0.173611111111
+4 There must be something that can be improved. : 0.291666666667
+-------------------------------------
+(['Any additional comments or thoughts?'], 'Root')
+-------------------------------------
+(['Security Requirement 3'], 'Root')
+Root : Write a bit in response to each idea.
+1 Propose some concrete ways this idea could be pushed forward, shifted, altered. : 0.352777777778
+2 Is the idea feasible in a single class session and will it result in digital data that we can use later on (it's ok if paper is used, but it would have to be scanned in later). : 0.359027777778
+-------------------------------------
+(['Security Requirement 5'], 'Root')
+-------------------------------------
+(['Is the spelling, grammar, and punctuation correct and in accordance with good English usage?'], 'Root')
+Root : Check the use of visual aids (e.g.
+1 UML diagrams, mockups of screens or tables). : 0.0960113960114
+2 Rate the overall quality and helpfulness of the diagrams. : 0.162037037037
+3 Comment if you find 1) some diagrams are unnecessary and do not help reader understand this project, 2) some UML diagrams do not follow the conventions, 3) some diagrams are too high-level design and do not provide enough details. : 0.192307692308
+Root : There was enough detail in the completed methods that I would be able to perform the proposed methods.
+1 Comment on why you agree or disagree. : 0.208333333333
+Root : Art: Obligatory, how visually stimulating would you rate the virtual environment towards the intended demographic?
+1 Critique how it looks. : 0.114273504274
+Root : Mechanics: Obligatory, how would you rate the player's ability to jump on moving platforms and their ability to get from one area to the next?
+1 Critique their bugs. : 0.1
+Root : Can a user vote for his own post/comment (no)?
+1 Can a user vote multiple times for the same post/comment (no)? : 1.0
+2 Is the list of users who voted displayed? : 0.0833333333333
+Root : Neutral Questions.
+1 Please carefully formulate a NEUTRAL question for the authors. : 1.0
+2 Its not easy asking a neutral question. : 1.0
+3 Usually people will still embed an opinion in the question. : 1.0
+4 For instance the question "Why is the video so long?" : 1.0
+5 embeds the opinion that the work is actually too long. : 0.142857142857
+6 Rather you can ask it like "How are you thinking about time in relation to the viewers experience?" : 0.111111111111
+Root : Opinion and Suggestion.
+1 Please formulate an opinion about the project or some aspect of it. : 0.6
+2 Offer your opinion in the following way. : 0.6
+3 IDENTIFY and then STATE. : 0.0714285714286
+4 First, name the topic of your opinion, "I have an opinion about -this-". : 0.6
+5 Then state your opinion in a generous and polite way. : 0.6
+6 Follow this with some concrete suggestions about how the work could be improved, altered, simplified or expanded. : 0.6
+-------------------------------------
+(['OWASP A8, Test Case 2'], 'Root')
+-------------------------------------
+(['Critique the assignment'], 'Root')
+-------------------------------------
+(['How IMPORTANT was the information included by the author?'], 'Root')
+-------------------------------------
+(['How CREDIBLE was the lesson produced by the author?'], 'Root')
+-------------------------------------
+(['How INTERESTING was the content created by the author?'], 'Root')
+-------------------------------------
+(['OWASP A5, Test Case 2'], 'Root')
+-------------------------------------
+(['OWASP A6, Test Case 1'], 'Root')
+-------------------------------------
+(['OWASP A4, Test Case 2'], 'Root')
+-------------------------------------
+(['OWASP A5, Test Case 1'], 'Root')
+Root : Does the design incorporate all of the functionality required?
+1 (See https://goo.gl/9W3Ven or https://github.com/servo/servo/wiki/NCSU-student-projects) : 0.159523809524
+-------------------------------------
+(['Can you summarize what the story is that the objects are telling?'], 'Root')
+-------------------------------------
+(['OWASP A6, Test Case 2'], 'Root')
+-------------------------------------
+(['OWASP A7, Test Case 1'], 'Root')
+Root : Verify the system operation from the UI.
+1 Does it work as intended? : 0.25
+2 If this project is to refactor or fix code, do the features work as they are supposed to? : 0.155303030303
+3 If this project is a testing project, do the tests cover all the scenarios? : 0.137445887446
+-------------------------------------
+(['What is the biggest problem for Apple if they follow the recommendations in this report?'], 'Root')
+Root : Is the code writen in a clean and readable way?
+1 For example-
+1) One method should only handle one task, if there are multiple task, it should be a function call. : 0.428571428571
+2 E.g. : 0.0
+3 when a user join a class, a system record (user history) should be added. : 0.444444444444
+4 Is adding system records done by a seperate method call? : 0.430555555556
+5 2) Is there any bad naming in this project like <user1>, <course2>? : 0.407407407407
+6 3) Other problem with coding such as long methods, many nested <if-else>, etc. : 0.195767195767
+7 Leave comments below if you find any issue with the coding. : 0.208333333333
+Root : Did the team kept on submitting their changes throughout the project?
+1 Especially, did this team still try to make changes in round 2? : 0.528571428571
+Root : Check the changes that the authors proposed.
+1 Rate the overall quality of the explanations. : 0.167658730159
+2 Give comments if you find the explanation hard to follow or inadequate. : 0.154671717172
+Root : Check the Git repo.
+1 Is polymorphism used properly in this project? : 0.170454545455
+2 E.g. : 0.0
+3 admin, student and instructor should be sub-classes of a "user" class. : 0.225
+4 Point out if you find any problem related to polymorphism. : 0.170454545455
+Root : "Is the code writen in a clean and readable way?
+1 For example-
+1) One method should only handle one task, if there are multiple task, it should be a function call. : 0.428571428571
+2 E.g. : 0.0
+3 when a user join a class, a system record (user history) should be added. : 0.444444444444
+4 Is adding system records done by a seperate method call? : 0.430555555556
+5 2) Is there any bad naming in this project like ""user1"", ""course2""? : 0.407407407407
+6 3) Other problem with coding such as long methods, many nested ""if-else"", etc. : 0.195767195767
+7 Leave comments below if you find any issue with the coding." : 0.208333333333
+Root : Please point out if any of those does not work or is missing from the reviewed system.
+1 Are these functionalities fully and correctly implemented? : 0.247383568812
+Root : Click on the link for the project that this student viewed and view the project yourself.
+1 Read what what the student wrote about the work. : 0.35612244898
+2 Write the title of the work and the artist's name here. : 0.259863945578
+-------------------------------------
+(['Thinking about this proposal as a plan that will be executed very soon, what do you see as the most significant challenges this team will face in achieving their goals?'], 'Root')
+Root : Download and open the sound responsive patch, then write a critique of the work.
+1 Focus initially on a simple description of the work. : 0.306812169312
+2 Then a technical analysis (how does it work), and finally a conceptual analysis (what did the author create, how did it make you feel?). : 0.304545454545
+3 Offer a concrete suggestion on how the author might improve this work. : 0.302525252525
+Root : What do you think are the proposal's strengths in relation to the assignment?
+1 What aspects of the proposal are most polished and thought through? : 0.538157081014
+Root : Where does this proposal need improvement?
+1 What gaps need filling? : 0.178977272727
+Root : For each assignment you see note the following in a written response: 
+What have you learned about the photographer from these photos?
+1 Which single image do you find the most interesting? : 0.175037185037
+2 Which single image do you find the least interesting? : 0.175037185037
+Root : In 1-2 sentences, describe the outcome of this final project.
+1 What is this team aiming to achieve? : 0.0912878787879
+-------------------------------------
+(['Any additional comments or thoughts?'], 'Root')
+Root : What part of this work (just the part shown here) needs the most improvement?
+1 Why? : 0.0
+2 Be specific, cite examples, you must write something here. : 0.317063492063
+3 Do not leave this blank. : 0.173611111111
+4 There must be something that can be improved. : 0.291666666667
+Root : What part of this work (just the part shown here) is the strongest?
+1 Why? : 0.0
+Root : Why did you rank these six the way you did?
+1 What would you change about your top pick? : 0.254166666667
